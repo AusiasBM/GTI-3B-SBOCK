@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:30 (find_package):
+  By not providing "Findturtlebot3_gazebo.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "turtlebot3_gazebo", but CMake did not find one.
+
+  Could not find a package configuration file provided by "turtlebot3_gazebo"
+  with any of the following names:
+
+    turtlebot3_gazeboConfig.cmake
+    turtlebot3_gazebo-config.cmake
+
+  Add the installation prefix of "turtlebot3_gazebo" to CMAKE_PREFIX_PATH or
+  set "turtlebot3_gazebo_DIR" to a directory containing one of the above
+  files.  If "turtlebot3_gazebo" provides a separate development package or
+  SDK, be sure it has been installed.
+
+
