@@ -1,0 +1,21 @@
+[1.309s] Invoking command in '/home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/my_first_publisher': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_publisher build --build-base /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/build install --prefix /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher --record /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/install.log --single-version-externally-managed
+[1.677s] running egg_info
+[1.678s] writing ../../build/my_first_publisher/my_first_publisher.egg-info/PKG-INFO
+[1.679s] writing dependency_links to ../../build/my_first_publisher/my_first_publisher.egg-info/dependency_links.txt
+[1.679s] writing entry points to ../../build/my_first_publisher/my_first_publisher.egg-info/entry_points.txt
+[1.679s] writing requirements to ../../build/my_first_publisher/my_first_publisher.egg-info/requires.txt
+[1.679s] writing top-level names to ../../build/my_first_publisher/my_first_publisher.egg-info/top_level.txt
+[1.746s] reading manifest file '../../build/my_first_publisher/my_first_publisher.egg-info/SOURCES.txt'
+[1.747s] writing manifest file '../../build/my_first_publisher/my_first_publisher.egg-info/SOURCES.txt'
+[1.748s] running build
+[1.748s] running build_py
+[1.748s] running install
+[1.750s] running install_lib
+[1.752s] running install_data
+[1.753s] running install_egg_info
+[1.756s] removing '/home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages/my_first_publisher-0.0.0-py3.8.egg-info' (and everything under it)
+[1.756s] Copying ../../build/my_first_publisher/my_first_publisher.egg-info to /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages/my_first_publisher-0.0.0-py3.8.egg-info
+[1.758s] running install_scripts
+[1.792s] Installing simple_publisher script to /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/my_first_publisher
+[1.793s] writing list of installed files to '/home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/install.log'
+[1.833s] Invoked command in '/home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/my_first_publisher' returned '0': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_publisher build --build-base /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/build install --prefix /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher --record /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/install.log --single-version-externally-managed
