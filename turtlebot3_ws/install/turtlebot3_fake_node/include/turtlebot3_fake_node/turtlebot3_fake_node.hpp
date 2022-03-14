@@ -1,1 +1,0 @@
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp
