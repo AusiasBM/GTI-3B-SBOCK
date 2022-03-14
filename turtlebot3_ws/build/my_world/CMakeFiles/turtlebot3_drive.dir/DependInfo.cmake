@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/src/turtlebot3_drive.cpp" "/home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/my_world/CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o"
+  "/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/src/turtlebot3_drive.cpp" "/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world/CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,7 +20,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/include"
+  "/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/include"
   "/usr/include/gazebo-11"
   "/usr/include/bullet"
   "/usr/include/simbody"

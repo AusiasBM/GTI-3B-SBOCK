@@ -1,0 +1,85 @@
+[0.062s] Invoking command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natxo/turtlebot3_ws/install/my_slam:/home/natxo/turtlebot3_ws/install/my_first_publisher:/home/natxo/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node
+[0.643s] -- The C compiler identification is GNU 9.3.0
+[1.042s] -- The CXX compiler identification is GNU 9.3.0
+[1.069s] -- Check for working C compiler: /usr/bin/cc
+[1.193s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.200s] -- Detecting C compiler ABI info
+[1.311s] -- Detecting C compiler ABI info - done
+[1.348s] -- Detecting C compile features
+[1.349s] -- Detecting C compile features - done
+[1.357s] -- Check for working CXX compiler: /usr/bin/c++
+[1.482s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.484s] -- Detecting CXX compiler ABI info
+[1.616s] -- Detecting CXX compiler ABI info - done
+[1.646s] -- Detecting CXX compile features
+[1.647s] -- Detecting CXX compile features - done
+[1.661s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.737s] -- Found PythonInterp: /home/natxo/virtualenvs/rosenv/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.739s] -- Using PYTHON_EXECUTABLE: /home/natxo/virtualenvs/rosenv/bin/python3
+[2.241s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.381s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.412s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.761s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.868s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.417s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.599s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.750s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.757s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.757s] -- Looking for pthread.h
+[3.981s] -- Looking for pthread.h - found
+[3.981s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.293s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.294s] -- Looking for pthread_create in pthreads
+[4.529s] -- Looking for pthread_create in pthreads - not found
+[4.530s] -- Looking for pthread_create in pthread
+[4.809s] -- Looking for pthread_create in pthread - found
+[4.812s] -- Found Threads: TRUE  
+[5.375s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.570s] -- Found tf2: 0.13.12 (/opt/ros/foxy/share/tf2/cmake)
+[5.606s] -- Found tf2_msgs: 0.13.12 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[6.249s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/foxy/share/turtlebot3_msgs/cmake)
+[7.153s] -- Configuring done
+[7.185s] -- Generating done
+[7.191s] -- Build files have been written to: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node
+[7.207s] Invoked command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natxo/turtlebot3_ws/install/my_slam:/home/natxo/turtlebot3_ws/install/my_first_publisher:/home/natxo/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node
+[7.208s] Invoking command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natxo/turtlebot3_ws/install/my_slam:/home/natxo/turtlebot3_ws/install/my_first_publisher:/home/natxo/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node -- -j2 -l2
+[7.274s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[7.673s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[28.669s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[29.565s] [100%] Built target turtlebot3_fake_node
+[29.591s] Invoked command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natxo/turtlebot3_ws/install/my_slam:/home/natxo/turtlebot3_ws/install/my_first_publisher:/home/natxo/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node -- -j2 -l2
+[29.651s] Invoking command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natxo/turtlebot3_ws/install/my_slam:/home/natxo/turtlebot3_ws/install/my_first_publisher:/home/natxo/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node
+[29.670s] -- Install configuration: ""
+[29.671s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[29.678s] -- Set runtime path of "/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[29.679s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[29.679s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[29.680s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[29.681s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[29.681s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[29.682s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[29.682s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[29.683s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz
+[29.683s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz/model.rviz
+[29.684s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/include/
+[29.684s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[29.685s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[29.686s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[29.687s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[29.688s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[29.689s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[29.689s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[29.690s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[29.691s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[29.691s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[29.692s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[29.693s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[29.694s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[29.694s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[29.695s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.695s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.696s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[29.696s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[29.697s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[29.701s] Invoked command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natxo/turtlebot3_ws/install/my_slam:/home/natxo/turtlebot3_ws/install/my_first_publisher:/home/natxo/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node
