@@ -1,0 +1,26 @@
+[0.965s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock_nav2_system': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sbock_nav2_system build --build-base /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav2_system/build install --prefix /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system --record /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav2_system/install.log --single-version-externally-managed
+[1.289s] running egg_info
+[1.289s] writing ../../build/sbock_nav2_system/sbock_nav2_system.egg-info/PKG-INFO
+[1.289s] writing dependency_links to ../../build/sbock_nav2_system/sbock_nav2_system.egg-info/dependency_links.txt
+[1.290s] writing entry points to ../../build/sbock_nav2_system/sbock_nav2_system.egg-info/entry_points.txt
+[1.290s] writing requirements to ../../build/sbock_nav2_system/sbock_nav2_system.egg-info/requires.txt
+[1.290s] writing top-level names to ../../build/sbock_nav2_system/sbock_nav2_system.egg-info/top_level.txt
+[1.353s] reading manifest file '../../build/sbock_nav2_system/sbock_nav2_system.egg-info/SOURCES.txt'
+[1.354s] writing manifest file '../../build/sbock_nav2_system/sbock_nav2_system.egg-info/SOURCES.txt'
+[1.355s] running build
+[1.355s] running build_py
+[1.355s] running install
+[1.356s] running install_lib
+[1.358s] running install_data
+[1.358s] copying launch/sbock_tb3_sim_nav2.launch.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/share/sbock_nav2_system/launch
+[1.359s] copying config/nav2_default_view.rviz -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/share/sbock_nav2_system/config
+[1.359s] running install_egg_info
+[1.361s] removing '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/lib/python3.8/site-packages/sbock_nav2_system-0.0.0-py3.8.egg-info' (and everything under it)
+[1.362s] Copying ../../build/sbock_nav2_system/sbock_nav2_system.egg-info to /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/lib/python3.8/site-packages/sbock_nav2_system-0.0.0-py3.8.egg-info
+[1.363s] running install_scripts
+[1.388s] Installing go_to_pose script to /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/lib/sbock_nav2_system
+[1.388s] Installing initial_pose_pub script to /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/lib/sbock_nav2_system
+[1.388s] Installing load_map script to /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/lib/sbock_nav2_system
+[1.389s] Installing nav_to_pose script to /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/lib/sbock_nav2_system
+[1.389s] writing list of installed files to '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav2_system/install.log'
+[1.414s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock_nav2_system' returned '0': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sbock_nav2_system build --build-base /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav2_system/build install --prefix /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system --record /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav2_system/install.log --single-version-externally-managed
