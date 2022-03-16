@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
 ignition/math.hh
 -
 stdio.h

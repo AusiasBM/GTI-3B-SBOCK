@@ -1,0 +1,37 @@
+[2.647s] Invoking command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/my_first_node': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_node build --build-base /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_node/build install --prefix /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node --record /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_node/install.log --single-version-externally-managed
+[3.635s] running egg_info
+[3.637s] creating ../../build/my_first_node/my_first_node.egg-info
+[3.637s] writing ../../build/my_first_node/my_first_node.egg-info/PKG-INFO
+[3.637s] writing dependency_links to ../../build/my_first_node/my_first_node.egg-info/dependency_links.txt
+[3.638s] writing entry points to ../../build/my_first_node/my_first_node.egg-info/entry_points.txt
+[3.638s] writing requirements to ../../build/my_first_node/my_first_node.egg-info/requires.txt
+[3.638s] writing top-level names to ../../build/my_first_node/my_first_node.egg-info/top_level.txt
+[3.655s] writing manifest file '../../build/my_first_node/my_first_node.egg-info/SOURCES.txt'
+[3.740s] reading manifest file '../../build/my_first_node/my_first_node.egg-info/SOURCES.txt'
+[3.742s] writing manifest file '../../build/my_first_node/my_first_node.egg-info/SOURCES.txt'
+[3.743s] running build
+[3.743s] running build_py
+[3.743s] creating /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_node/build
+[3.744s] creating /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_node/build/lib
+[3.744s] creating /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_node/build/lib/my_first_node
+[3.744s] copying my_first_node/simple_node.py -> /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_node/build/lib/my_first_node
+[3.744s] copying my_first_node/__init__.py -> /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_node/build/lib/my_first_node
+[3.749s] running install
+[3.751s] running install_lib
+[3.754s] creating /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node
+[3.754s] copying /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_node/build/lib/my_first_node/simple_node.py -> /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node
+[3.754s] copying /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_node/build/lib/my_first_node/__init__.py -> /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node
+[3.755s] byte-compiling /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node/simple_node.py to simple_node.cpython-38.pyc
+[3.758s] byte-compiling /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node/__init__.py to __init__.cpython-38.pyc
+[3.759s] running install_data
+[3.759s] creating /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/share/ament_index
+[3.760s] creating /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/share/ament_index/resource_index
+[3.760s] creating /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/share/ament_index/resource_index/packages
+[3.760s] copying resource/my_first_node -> /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/share/ament_index/resource_index/packages
+[3.760s] copying package.xml -> /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/share/my_first_node
+[3.760s] running install_egg_info
+[3.764s] Copying ../../build/my_first_node/my_first_node.egg-info to /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages/my_first_node-0.0.0-py3.8.egg-info
+[3.766s] running install_scripts
+[3.797s] Installing simple_node script to /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/lib/my_first_node
+[3.797s] writing list of installed files to '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_node/install.log'
+[3.835s] Invoked command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/my_first_node' returned '0': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_node build --build-base /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_node/build install --prefix /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node --record /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_node/install.log --single-version-externally-managed

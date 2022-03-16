@@ -1,0 +1,10 @@
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world/CMakeFiles/install/local.dir
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world/CMakeFiles/edit_cache.dir
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world/CMakeFiles/test.dir
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world/CMakeFiles/install.dir
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world/CMakeFiles/list_install_components.dir
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world/CMakeFiles/rebuild_cache.dir
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world/CMakeFiles/turtlebot3_drive.dir
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world/CMakeFiles/install/strip.dir
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world/CMakeFiles/my_world_uninstall.dir
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world/CMakeFiles/uninstall.dir

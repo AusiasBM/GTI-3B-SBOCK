@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp
 tf2/LinearMath/Quaternion.h
 -
 rclcpp/rclcpp.hpp
@@ -14,21 +14,21 @@ rclcpp/rclcpp.hpp
 chrono
 -
 geometry_msgs/msg/transform_stamped.hpp
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/geometry_msgs/msg/transform_stamped.hpp
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/geometry_msgs/msg/transform_stamped.hpp
 geometry_msgs/msg/twist.hpp
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/geometry_msgs/msg/twist.hpp
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/geometry_msgs/msg/twist.hpp
 nav_msgs/msg/odometry.hpp
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/nav_msgs/msg/odometry.hpp
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/nav_msgs/msg/odometry.hpp
 sensor_msgs/msg/joint_state.hpp
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/sensor_msgs/msg/joint_state.hpp
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/sensor_msgs/msg/joint_state.hpp
 tf2_msgs/msg/tf_message.hpp
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/tf2_msgs/msg/tf_message.hpp
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/tf2_msgs/msg/tf_message.hpp
 turtlebot3_msgs/msg/sensor_state.hpp
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_msgs/msg/sensor_state.hpp
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_msgs/msg/sensor_state.hpp
 
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp
 turtlebot3_fake_node/turtlebot3_fake_node.hpp
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node/turtlebot3_fake_node.hpp
+/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node/turtlebot3_fake_node.hpp
 memory
 -
 string

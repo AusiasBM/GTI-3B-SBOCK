@@ -1,0 +1,41 @@
+[0.025s] Invoking command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/home/natxo/turtlebot3_ws/install/my_slam:/home/natxo/turtlebot3_ws/install/my_first_publisher:/home/natxo/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world -- -j2 -l2
+[0.139s] [100%] Built target turtlebot3_drive
+[0.154s] Invoked command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/home/natxo/turtlebot3_ws/install/my_slam:/home/natxo/turtlebot3_ws/install/my_first_publisher:/home/natxo/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world -- -j2 -l2
+[0.232s] Invoking command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/home/natxo/turtlebot3_ws/install/my_slam:/home/natxo/turtlebot3_ws/install/my_first_publisher:/home/natxo/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world
+[0.253s] -- Install configuration: ""
+[0.253s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive
+[0.253s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//launch
+[0.254s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//launch/turtlebot3_my_world.launch.py
+[0.254s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models
+[0.254s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world
+[0.254s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.config
+[0.255s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.sdf
+[0.255s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger
+[0.255s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.config
+[0.256s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model-1_4.sdf
+[0.256s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes
+[0.256s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/lds.dae
+[0.257s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/burger_base.dae
+[0.257s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/tire.dae
+[0.257s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.sdf
+[0.258s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//world
+[0.258s] -- Up-to-date: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//world/burger.model
+[0.258s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/include/
+[0.259s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/ament_index/resource_index/package_run_dependencies/my_world
+[0.260s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/ament_index/resource_index/parent_prefix_path/my_world
+[0.260s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.sh
+[0.261s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.dsv
+[0.261s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/environment/path.sh
+[0.262s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/environment/path.dsv
+[0.262s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/local_setup.bash
+[0.263s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/local_setup.sh
+[0.263s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/local_setup.zsh
+[0.264s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/local_setup.dsv
+[0.264s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/package.dsv
+[0.265s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/ament_index/resource_index/packages/my_world
+[0.266s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.266s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.267s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig.cmake
+[0.267s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig-version.cmake
+[0.267s] -- Installing: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/package.xml
+[0.274s] Invoked command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/home/natxo/turtlebot3_ws/install/my_slam:/home/natxo/turtlebot3_ws/install/my_first_publisher:/home/natxo/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world

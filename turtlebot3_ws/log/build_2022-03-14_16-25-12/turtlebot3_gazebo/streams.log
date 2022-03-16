@@ -1,0 +1,120 @@
+[0.052s] Invoking command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natxo/turtlebot3_ws/install/my_slam:/home/natxo/turtlebot3_ws/install/my_first_publisher:/home/natxo/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo
+[0.600s] -- The C compiler identification is GNU 9.3.0
+[1.005s] -- The CXX compiler identification is GNU 9.3.0
+[1.036s] -- Check for working C compiler: /usr/bin/cc
+[1.159s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.167s] -- Detecting C compiler ABI info
+[1.286s] -- Detecting C compiler ABI info - done
+[1.317s] -- Detecting C compile features
+[1.318s] -- Detecting C compile features - done
+[1.324s] -- Check for working CXX compiler: /usr/bin/c++
+[1.442s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.444s] -- Detecting CXX compiler ABI info
+[1.589s] -- Detecting CXX compiler ABI info - done
+[1.622s] -- Detecting CXX compile features
+[1.624s] -- Detecting CXX compile features - done
+[1.629s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.706s] -- Found PythonInterp: /home/natxo/virtualenvs/rosenv/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.706s] -- Using PYTHON_EXECUTABLE: /home/natxo/virtualenvs/rosenv/bin/python3
+[2.212s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.227s] -- Checking for module 'bullet>=2.82'
+[2.287s] --   Found bullet, version 2.88
+[2.675s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[2.893s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[3.115s] -- Found assimp: /usr/include (found version "5.0.0") 
+[3.222s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.841s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.966s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[3.986s] -- Looking for ignition-math6 -- found version 6.9.2
+[4.012s] -- Searching for dependencies of ignition-math6
+[4.020s] -- Looking for OGRE...
+[4.022s] -- OGRE_PREFIX_WATCH changed.
+[4.032s] -- Checking for module 'OGRE'
+[4.062s] --   Found OGRE, version 1.9.0
+[4.174s] -- Found Ogre Ghadamon (1.9.0)
+[4.216s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[4.278s] -- Looking for OGRE_Paging...
+[4.303s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[4.304s] -- Looking for OGRE_Terrain...
+[4.337s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[4.339s] -- Looking for OGRE_Property...
+[4.379s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[4.380s] -- Looking for OGRE_RTShaderSystem...
+[4.409s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[4.409s] -- Looking for OGRE_Volume...
+[4.448s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[4.449s] -- Looking for OGRE_Overlay...
+[4.478s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.233s] -- Looking for ignition-math6 -- found version 6.9.2
+[5.241s] -- Looking for ignition-transport8 -- found version 8.2.1
+[5.242s] -- Searching for dependencies of ignition-transport8
+[5.272s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[5.291s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.299s] -- Checking for module 'libzmq >= 4'
+[5.331s] --   Found libzmq , version 4.3.2
+[5.407s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[5.421s] -- Checking for module 'uuid'
+[5.451s] --   Found uuid, version 2.34.0
+[5.521s] -- Found UUID: TRUE  
+[5.528s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.531s] -- Searching for dependencies of ignition-msgs5
+[5.565s] -- Looking for ignition-math6 -- found version 6.9.2
+[5.574s] -- Checking for module 'tinyxml2'
+[5.600s] --   Found tinyxml2, version 6.2.0
+[5.687s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.692s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.693s] -- Searching for dependencies of ignition-common3
+[5.694s] -- Looking for dlfcn.h - found
+[5.696s] -- Looking for libdl - found
+[5.699s] -- Found DL: TRUE  
+[5.711s] -- Searching for <ignition-common3> component [graphics]
+[5.717s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[5.717s] -- Searching for dependencies of ignition-common3-graphics
+[5.718s] -- Looking for ignition-math6 -- found version 6.9.2
+[5.726s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[5.727s] -- Searching for dependencies of ignition-fuel_tools4
+[6.036s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[6.069s] -- Checking for module 'jsoncpp'
+[6.121s] --   Found jsoncpp, version 1.7.4
+[6.304s] -- Found JSONCPP: TRUE  
+[6.326s] -- Checking for module 'libzip'
+[6.408s] --   Found libzip, version 1.5.1
+[6.577s] -- Found ZIP: TRUE  
+[6.583s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.589s] -- Looking for ignition-math6 -- found version 6.9.2
+[6.591s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.612s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[6.615s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[6.720s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.751s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.002s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.055s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.222s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.445s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[7.620s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[7.720s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.724s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.727s] -- Found Threads: TRUE  
+[8.119s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[8.369s] -- Found tf2: 0.13.12 (/opt/ros/foxy/share/tf2/cmake)
+[8.956s] -- Configuring done
+[9.194s] -- Generating done
+[9.209s] -- Build files have been written to: /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo
+[9.264s] Invoked command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natxo/turtlebot3_ws/install/my_slam:/home/natxo/turtlebot3_ws/install/my_first_publisher:/home/natxo/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo
+[9.266s] Invoking command in '/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natxo/turtlebot3_ws/install/my_slam:/home/natxo/turtlebot3_ws/install/my_first_publisher:/home/natxo/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo -- -j2 -l2
+[9.416s] [35m[1mScanning dependencies of target obstacles[0m
+[10.216s] [ 12%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[40.527s] [ 25%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[41.597s] [ 25%] Built target obstacles
+[41.624s] [35m[1mScanning dependencies of target obstacle2[0m
+[42.017s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[69.253s] [ 50%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[69.753s] [ 50%] Built target obstacle2
+[69.775s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[69.874s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[82.133s] [ 75%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[82.703s] [ 75%] Built target turtlebot3_drive
+[82.724s] [35m[1mScanning dependencies of target obstacle1[0m
+[82.928s] [ 87%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[98.809s] [100%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[99.274s] [100%] Built target obstacle1
