@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world/CMakeCache.txt is different than the directory /home/natxo/GTI-3B-SBOCK/turtlebot3_ws/build/my_world where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source directory "/home/natxo/GTI-3B-SBOCK/turtlebot3_ws/src/my_world" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [Makefile:266: cmake_check_build_system] Error 1

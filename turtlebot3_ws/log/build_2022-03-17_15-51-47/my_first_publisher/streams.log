@@ -1,0 +1,38 @@
+[2.001s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_first_publisher': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_publisher build --build-base /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/build install --prefix /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher --record /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/install.log --single-version-externally-managed
+[2.548s] running egg_info
+[2.550s] creating ../../build/my_first_publisher/my_first_publisher.egg-info
+[2.551s] writing ../../build/my_first_publisher/my_first_publisher.egg-info/PKG-INFO
+[2.551s] writing dependency_links to ../../build/my_first_publisher/my_first_publisher.egg-info/dependency_links.txt
+[2.552s] writing entry points to ../../build/my_first_publisher/my_first_publisher.egg-info/entry_points.txt
+[2.552s] writing requirements to ../../build/my_first_publisher/my_first_publisher.egg-info/requires.txt
+[2.552s] writing top-level names to ../../build/my_first_publisher/my_first_publisher.egg-info/top_level.txt
+[2.559s] writing manifest file '../../build/my_first_publisher/my_first_publisher.egg-info/SOURCES.txt'
+[2.664s] reading manifest file '../../build/my_first_publisher/my_first_publisher.egg-info/SOURCES.txt'
+[2.665s] writing manifest file '../../build/my_first_publisher/my_first_publisher.egg-info/SOURCES.txt'
+[2.665s] running build
+[2.665s] running build_py
+[2.665s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/build
+[2.665s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/build/lib
+[2.665s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/build/lib/my_first_publisher
+[2.665s] copying my_first_publisher/__init__.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/build/lib/my_first_publisher
+[2.666s] copying my_first_publisher/simple_publisher.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/build/lib/my_first_publisher
+[2.666s] running install
+[2.667s] running install_lib
+[2.670s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages/my_first_publisher
+[2.670s] copying /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/build/lib/my_first_publisher/__init__.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages/my_first_publisher
+[2.670s] copying /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/build/lib/my_first_publisher/simple_publisher.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages/my_first_publisher
+[2.673s] byte-compiling /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages/my_first_publisher/__init__.py to __init__.cpython-38.pyc
+[2.678s] byte-compiling /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages/my_first_publisher/simple_publisher.py to simple_publisher.cpython-38.pyc
+[2.678s] running install_data
+[2.679s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/share/ament_index
+[2.680s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/share/ament_index/resource_index
+[2.680s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/share/ament_index/resource_index/packages
+[2.682s] copying resource/my_first_publisher -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/share/ament_index/resource_index/packages
+[2.683s] copying package.xml -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/share/my_first_publisher
+[2.683s] copying launch/my_first_publisher.launch.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/share/my_first_publisher
+[2.685s] running install_egg_info
+[2.685s] Copying ../../build/my_first_publisher/my_first_publisher.egg-info to /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages/my_first_publisher-0.0.0-py3.8.egg-info
+[2.686s] running install_scripts
+[2.733s] Installing simple_publisher script to /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/my_first_publisher
+[2.733s] writing list of installed files to '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/install.log'
+[3.150s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_first_publisher' returned '0': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_publisher build --build-base /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/build install --prefix /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher --record /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_first_publisher/install.log --single-version-externally-managed

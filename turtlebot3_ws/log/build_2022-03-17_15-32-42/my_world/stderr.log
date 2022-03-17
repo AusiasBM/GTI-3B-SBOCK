@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:69 (file):
+  file INSTALL cannot find
+  "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world/$HOME/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/include":
+  No such file or directory.
+
+

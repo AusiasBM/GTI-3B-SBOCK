@@ -1,0 +1,304 @@
+[0.000000] (-) TimerEvent: {}
+[0.001112] (-) JobUnselected: {'identifier': 'my_first_node'}
+[0.002937] (-) JobUnselected: {'identifier': 'my_first_publisher'}
+[0.003079] (-) JobUnselected: {'identifier': 'provide_map'}
+[0.003376] (-) JobUnselected: {'identifier': 'sbock_nav2_system'}
+[0.003448] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.003504] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.003595] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.003676] (my_world) JobQueued: {'identifier': 'my_world', 'dependencies': OrderedDict()}
+[0.003746] (my_world) JobStarted: {'identifier': 'my_world'}
+[0.027789] (my_world) JobProgress: {'identifier': 'my_world', 'progress': 'cmake'}
+[0.028383] (my_world) Command: {'cmd': ['/usr/bin/cmake', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world', '-DCMAKE_INSTALL_PREFIX=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world'], 'cwd': '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aibes'), ('SSH_AGENT_PID', '1503'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aibes/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aibes'), ('OLDPWD', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(rosenv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('MANAGERPID', '1329'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=540454f4210106bde0fbc7e06232f969'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install:/home/aibes/turtlebot3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aibes'), ('JOURNAL_STREAM', '8:31687'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aibes'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/aibes/virtualenvs/rosenv/bin:/home/aibes/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aibes-VirtualBox:@/tmp/.ICE-unix/1565,unix/aibes-VirtualBox:/tmp/.ICE-unix/1565'), ('INVOCATION_ID', '03a7b55a7feb4f33ba50b7b735505ecd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7db327d3_d7ec_42dd_97a1_65be45b684ba'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ca_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.702'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '25'), ('AMENT_PREFIX_PATH', '/home/aibes/turtlebot3_ws/install/turtlebot3_gazebo:/home/aibes/turtlebot3_ws/install/turtlebot3_fake_node:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/custom_interface:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/aibes/virtualenvs/rosenv'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=540454f4210106bde0fbc7e06232f969'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aibes/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/provide_map/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_slam/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_nav2_system/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/lib/python3.8/site-packages:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/lib/python3.8/site-packages:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/aibes/turtlebot3_ws/install/turtlebot3_gazebo:/home/aibes/turtlebot3_ws/install/turtlebot3_fake_node:/home/aibes/turtlebot3_ws/install/custom_interface:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy')]), 'shell': False}
+[0.098568] (-) TimerEvent: {}
+[0.123797] (my_world) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.198775] (-) TimerEvent: {}
+[0.218765] (my_world) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.227624] (my_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299142] (-) TimerEvent: {}
+[0.333467] (my_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.335665] (my_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.402912] (-) TimerEvent: {}
+[0.440028] (my_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.464140] (my_world) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.464647] (my_world) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.468544] (my_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.503334] (-) TimerEvent: {}
+[0.573655] (my_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.575483] (my_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.603542] (-) TimerEvent: {}
+[0.704538] (-) TimerEvent: {}
+[0.711476] (my_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.736446] (my_world) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.737288] (my_world) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.742352] (my_world) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.788950] (my_world) StdoutLine: {'line': b'-- Found PythonInterp: /home/aibes/virtualenvs/rosenv/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.789285] (my_world) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/aibes/virtualenvs/rosenv/bin/python3\n'}
+[0.804730] (-) TimerEvent: {}
+[0.905489] (-) TimerEvent: {}
+[1.006016] (-) TimerEvent: {}
+[1.063167] (my_world) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.070087] (my_world) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.091882] (my_world) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[1.106228] (-) TimerEvent: {}
+[1.206612] (-) TimerEvent: {}
+[1.265865] (my_world) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[1.306765] (-) TimerEvent: {}
+[1.344422] (my_world) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[1.406979] (-) TimerEvent: {}
+[1.424012] (my_world) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[1.472536] (my_world) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.507192] (-) TimerEvent: {}
+[1.607697] (-) TimerEvent: {}
+[1.708433] (-) TimerEvent: {}
+[1.809360] (-) TimerEvent: {}
+[1.910113] (-) TimerEvent: {}
+[1.971134] (my_world) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.010467] (-) TimerEvent: {}
+[2.011213] (my_world) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[2.031548] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[2.042137] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.044769] (my_world) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.045825] (my_world) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.053335] (my_world) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.078349] (my_world) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.110684] (-) TimerEvent: {}
+[2.129933] (my_world) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.150459] (my_world) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.167253] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.183921] (my_world) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.184159] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.200763] (my_world) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.200991] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.211372] (-) TimerEvent: {}
+[2.220033] (my_world) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.220317] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.239079] (my_world) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.239314] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.256838] (my_world) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.257116] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.274973] (my_world) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.311569] (-) TimerEvent: {}
+[2.411967] (-) TimerEvent: {}
+[2.512362] (-) TimerEvent: {}
+[2.612832] (-) TimerEvent: {}
+[2.633826] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[2.637880] (my_world) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.638604] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.668056] (my_world) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[2.685868] (my_world) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.692421] (my_world) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.713354] (-) TimerEvent: {}
+[2.715208] (my_world) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[2.775959] (my_world) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.791774] (my_world) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.813521] (-) TimerEvent: {}
+[2.821036] (my_world) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[2.862159] (my_world) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.866831] (my_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.867665] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.897349] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[2.904698] (my_world) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.913689] (-) TimerEvent: {}
+[2.935124] (my_world) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[2.992268] (my_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.996585] (my_world) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.997364] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.998122] (my_world) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.000266] (my_world) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.002827] (my_world) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.012505] (my_world) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.013861] (-) TimerEvent: {}
+[3.021789] (my_world) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[3.022754] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.023307] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[3.029337] (my_world) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[3.030196] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.114179] (-) TimerEvent: {}
+[3.160511] (my_world) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[3.173486] (my_world) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.196042] (my_world) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[3.214242] (-) TimerEvent: {}
+[3.250069] (my_world) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.260662] (my_world) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.283939] (my_world) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[3.317437] (-) TimerEvent: {}
+[3.338057] (my_world) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.338767] (my_world) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.339392] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[3.339978] (my_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.346094] (my_world) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)\n'}
+[3.350493] (my_world) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[3.411404] (my_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.418107] (-) TimerEvent: {}
+[3.427847] (my_world) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.518504] (-) TimerEvent: {}
+[3.555731] (my_world) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.599915] (my_world) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.618683] (-) TimerEvent: {}
+[3.719021] (-) TimerEvent: {}
+[3.741288] (my_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.819216] (-) TimerEvent: {}
+[3.919625] (-) TimerEvent: {}
+[3.927442] (my_world) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[4.019896] (-) TimerEvent: {}
+[4.077872] (my_world) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[4.120122] (-) TimerEvent: {}
+[4.176742] (my_world) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.180802] (my_world) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.183587] (my_world) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.220212] (-) TimerEvent: {}
+[4.320586] (-) TimerEvent: {}
+[4.421129] (-) TimerEvent: {}
+[4.485761] (my_world) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[4.521353] (-) TimerEvent: {}
+[4.621744] (-) TimerEvent: {}
+[4.632304] (my_world) StdoutLine: {'line': b'-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[4.654298] (my_world) StdoutLine: {'line': b'-- Found turtlebot3_gazebo: 2.2.3 (/home/aibes/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake)\n'}
+[4.722028] (-) TimerEvent: {}
+[4.822508] (-) TimerEvent: {}
+[4.922997] (-) TimerEvent: {}
+[4.987127] (my_world) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.006899] (my_world) StdoutLine: {'line': b'-- Generating done\n'}
+[5.011820] (my_world) StdoutLine: {'line': b'-- Build files have been written to: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world\n'}
+[5.023065] (-) TimerEvent: {}
+[5.032324] (my_world) CommandEnded: {'returncode': 0}
+[5.033638] (my_world) JobProgress: {'identifier': 'my_world', 'progress': 'build'}
+[5.037033] (my_world) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world', '--', '-j6', '-l6'], 'cwd': '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aibes'), ('SSH_AGENT_PID', '1503'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aibes/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aibes'), ('OLDPWD', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(rosenv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('MANAGERPID', '1329'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=540454f4210106bde0fbc7e06232f969'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install:/home/aibes/turtlebot3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aibes'), ('JOURNAL_STREAM', '8:31687'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aibes'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/aibes/virtualenvs/rosenv/bin:/home/aibes/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aibes-VirtualBox:@/tmp/.ICE-unix/1565,unix/aibes-VirtualBox:/tmp/.ICE-unix/1565'), ('INVOCATION_ID', '03a7b55a7feb4f33ba50b7b735505ecd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7db327d3_d7ec_42dd_97a1_65be45b684ba'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ca_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.702'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '25'), ('AMENT_PREFIX_PATH', '/home/aibes/turtlebot3_ws/install/turtlebot3_gazebo:/home/aibes/turtlebot3_ws/install/turtlebot3_fake_node:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/custom_interface:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/aibes/virtualenvs/rosenv'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=540454f4210106bde0fbc7e06232f969'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aibes/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/provide_map/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_slam/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_nav2_system/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/lib/python3.8/site-packages:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/lib/python3.8/site-packages:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/aibes/turtlebot3_ws/install/turtlebot3_gazebo:/home/aibes/turtlebot3_ws/install/turtlebot3_fake_node:/home/aibes/turtlebot3_ws/install/custom_interface:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy')]), 'shell': False}
+[5.096425] (my_world) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_drive\x1b[0m\n'}
+[5.124084] (-) TimerEvent: {}
+[5.192000] (my_world) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[5.224148] (-) TimerEvent: {}
+[5.324728] (-) TimerEvent: {}
+[5.425576] (-) TimerEvent: {}
+[5.526086] (-) TimerEvent: {}
+[5.626433] (-) TimerEvent: {}
+[5.727010] (-) TimerEvent: {}
+[5.827445] (-) TimerEvent: {}
+[5.927785] (-) TimerEvent: {}
+[6.028320] (-) TimerEvent: {}
+[6.128698] (-) TimerEvent: {}
+[6.229087] (-) TimerEvent: {}
+[6.329459] (-) TimerEvent: {}
+[6.429854] (-) TimerEvent: {}
+[6.530766] (-) TimerEvent: {}
+[6.631160] (-) TimerEvent: {}
+[6.731543] (-) TimerEvent: {}
+[6.831944] (-) TimerEvent: {}
+[6.932292] (-) TimerEvent: {}
+[7.032758] (-) TimerEvent: {}
+[7.133167] (-) TimerEvent: {}
+[7.233569] (-) TimerEvent: {}
+[7.333971] (-) TimerEvent: {}
+[7.434358] (-) TimerEvent: {}
+[7.534736] (-) TimerEvent: {}
+[7.635373] (-) TimerEvent: {}
+[7.735684] (-) TimerEvent: {}
+[7.836050] (-) TimerEvent: {}
+[7.936713] (-) TimerEvent: {}
+[8.037278] (-) TimerEvent: {}
+[8.137529] (-) TimerEvent: {}
+[8.237900] (-) TimerEvent: {}
+[8.338426] (-) TimerEvent: {}
+[8.438710] (-) TimerEvent: {}
+[8.539046] (-) TimerEvent: {}
+[8.639480] (-) TimerEvent: {}
+[8.739858] (-) TimerEvent: {}
+[8.840280] (-) TimerEvent: {}
+[8.940757] (-) TimerEvent: {}
+[9.041157] (-) TimerEvent: {}
+[9.142239] (-) TimerEvent: {}
+[9.242622] (-) TimerEvent: {}
+[9.342993] (-) TimerEvent: {}
+[9.443328] (-) TimerEvent: {}
+[9.543777] (-) TimerEvent: {}
+[9.644517] (-) TimerEvent: {}
+[9.747331] (-) TimerEvent: {}
+[9.847788] (-) TimerEvent: {}
+[9.948297] (-) TimerEvent: {}
+[10.048690] (-) TimerEvent: {}
+[10.149149] (-) TimerEvent: {}
+[10.249532] (-) TimerEvent: {}
+[10.350090] (-) TimerEvent: {}
+[10.450905] (-) TimerEvent: {}
+[10.551301] (-) TimerEvent: {}
+[10.651651] (-) TimerEvent: {}
+[10.751988] (-) TimerEvent: {}
+[10.852648] (-) TimerEvent: {}
+[10.953025] (-) TimerEvent: {}
+[11.053388] (-) TimerEvent: {}
+[11.153667] (-) TimerEvent: {}
+[11.254156] (-) TimerEvent: {}
+[11.354510] (-) TimerEvent: {}
+[11.455103] (-) TimerEvent: {}
+[11.555670] (-) TimerEvent: {}
+[11.656311] (-) TimerEvent: {}
+[11.756846] (-) TimerEvent: {}
+[11.857388] (-) TimerEvent: {}
+[11.957815] (-) TimerEvent: {}
+[12.058145] (-) TimerEvent: {}
+[12.158690] (-) TimerEvent: {}
+[12.258957] (-) TimerEvent: {}
+[12.359390] (-) TimerEvent: {}
+[12.459741] (-) TimerEvent: {}
+[12.560173] (-) TimerEvent: {}
+[12.660484] (-) TimerEvent: {}
+[12.760830] (-) TimerEvent: {}
+[12.861523] (-) TimerEvent: {}
+[12.962052] (-) TimerEvent: {}
+[13.062608] (-) TimerEvent: {}
+[13.162985] (-) TimerEvent: {}
+[13.263375] (-) TimerEvent: {}
+[13.363713] (-) TimerEvent: {}
+[13.464282] (-) TimerEvent: {}
+[13.566323] (-) TimerEvent: {}
+[13.666972] (-) TimerEvent: {}
+[13.767490] (-) TimerEvent: {}
+[13.868023] (-) TimerEvent: {}
+[13.968340] (-) TimerEvent: {}
+[14.069432] (-) TimerEvent: {}
+[14.170099] (-) TimerEvent: {}
+[14.270437] (-) TimerEvent: {}
+[14.370836] (-) TimerEvent: {}
+[14.471331] (-) TimerEvent: {}
+[14.571870] (-) TimerEvent: {}
+[14.672524] (-) TimerEvent: {}
+[14.757449] (my_world) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[14.772883] (-) TimerEvent: {}
+[14.873433] (-) TimerEvent: {}
+[14.974106] (-) TimerEvent: {}
+[15.074735] (-) TimerEvent: {}
+[15.175276] (-) TimerEvent: {}
+[15.202760] (my_world) StdoutLine: {'line': b'[100%] Built target turtlebot3_drive\n'}
+[15.217375] (my_world) CommandEnded: {'returncode': 0}
+[15.250462] (my_world) JobProgress: {'identifier': 'my_world', 'progress': 'install'}
+[15.266027] (my_world) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world'], 'cwd': '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aibes'), ('SSH_AGENT_PID', '1503'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aibes/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aibes'), ('OLDPWD', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(rosenv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('MANAGERPID', '1329'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=540454f4210106bde0fbc7e06232f969'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install:/home/aibes/turtlebot3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aibes'), ('JOURNAL_STREAM', '8:31687'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aibes'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/aibes/virtualenvs/rosenv/bin:/home/aibes/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aibes-VirtualBox:@/tmp/.ICE-unix/1565,unix/aibes-VirtualBox:/tmp/.ICE-unix/1565'), ('INVOCATION_ID', '03a7b55a7feb4f33ba50b7b735505ecd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7db327d3_d7ec_42dd_97a1_65be45b684ba'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ca_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.702'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '25'), ('AMENT_PREFIX_PATH', '/home/aibes/turtlebot3_ws/install/turtlebot3_gazebo:/home/aibes/turtlebot3_ws/install/turtlebot3_fake_node:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/custom_interface:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/aibes/virtualenvs/rosenv'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=540454f4210106bde0fbc7e06232f969'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aibes/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/provide_map/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_slam/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_nav2_system/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/aibes/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/lib/python3.8/site-packages:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/lib/python3.8/site-packages:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/aibes/turtlebot3_ws/install/turtlebot3_gazebo:/home/aibes/turtlebot3_ws/install/turtlebot3_fake_node:/home/aibes/turtlebot3_ws/install/custom_interface:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy')]), 'shell': False}
+[15.275394] (-) TimerEvent: {}
+[15.276111] (my_world) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.280504] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive\n'}
+[15.281559] (my_world) StdoutLine: {'line': b'-- Set runtime path of "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive" to ""\n'}
+[15.281878] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//launch\n'}
+[15.282456] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//launch/turtlebot3_my_world.launch.py\n'}
+[15.282803] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models\n'}
+[15.283167] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger\n'}
+[15.283632] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model-1_4.sdf\n'}
+[15.283884] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.config\n'}
+[15.284021] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes\n'}
+[15.284154] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/lds.dae\n'}
+[15.284298] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/burger_base.dae\n'}
+[15.284431] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/tire.dae\n'}
+[15.284597] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.sdf\n'}
+[15.284744] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world\n'}
+[15.285397] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.config\n'}
+[15.285928] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.sdf\n'}
+[15.288498] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//world\n'}
+[15.290007] (my_world) StdoutLine: {'line': b'-- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//world/burger.model\n'}
+[15.290233] (my_world) StderrLine: {'line': b'CMake Error at cmake_install.cmake:69 (file):\n'}
+[15.290448] (my_world) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[15.290626] (my_world) StderrLine: {'line': b'  "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/include": No such file\n'}
+[15.290761] (my_world) StderrLine: {'line': b'  or directory.\n'}
+[15.290924] (my_world) StderrLine: {'line': b'\n'}
+[15.291086] (my_world) StderrLine: {'line': b'\n'}
+[15.291224] (my_world) CommandEnded: {'returncode': 1}
+[15.335836] (my_world) JobEnded: {'identifier': 'my_world', 'rc': 1}
+[15.346874] (-) EventReactorShutdown: {}

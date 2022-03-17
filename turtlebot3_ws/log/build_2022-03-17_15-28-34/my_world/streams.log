@@ -1,0 +1,137 @@
+[0.029s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world -DCMAKE_INSTALL_PREFIX=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world
+[0.116s] -- The C compiler identification is GNU 9.4.0
+[0.211s] -- The CXX compiler identification is GNU 9.4.0
+[0.220s] -- Check for working C compiler: /usr/bin/cc
+[0.315s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.316s] -- Detecting C compiler ABI info
+[0.407s] -- Detecting C compiler ABI info - done
+[0.431s] -- Detecting C compile features
+[0.432s] -- Detecting C compile features - done
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++
+[0.543s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.545s] -- Detecting CXX compiler ABI info
+[0.654s] -- Detecting CXX compiler ABI info - done
+[0.680s] -- Detecting CXX compile features
+[0.681s] -- Detecting CXX compile features - done
+[0.687s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.733s] -- Found PythonInterp: /home/aibes/virtualenvs/rosenv/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.734s] -- Using PYTHON_EXECUTABLE: /home/aibes/virtualenvs/rosenv/bin/python3
+[1.002s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.009s] -- Checking for module 'bullet>=2.82'
+[1.030s] --   Found bullet, version 2.88
+[1.218s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.295s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.372s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.414s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.846s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.894s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.904s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.913s] -- Searching for dependencies of ignition-math6
+[1.916s] -- Looking for OGRE...
+[1.918s] -- OGRE_PREFIX_WATCH changed.
+[1.924s] -- Checking for module 'OGRE'
+[1.947s] --   Found OGRE, version 1.9.0
+[2.011s] -- Found Ogre Ghadamon (1.9.0)
+[2.035s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.053s] -- Looking for OGRE_Paging...
+[2.070s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.071s] -- Looking for OGRE_Terrain...
+[2.086s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.086s] -- Looking for OGRE_Property...
+[2.102s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.102s] -- Looking for OGRE_RTShaderSystem...
+[2.118s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.118s] -- Looking for OGRE_Volume...
+[2.134s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.134s] -- Looking for OGRE_Overlay...
+[2.151s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.492s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.496s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.497s] -- Searching for dependencies of ignition-transport8
+[2.523s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[2.539s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.545s] -- Checking for module 'libzmq >= 4'
+[2.569s] --   Found libzmq , version 4.3.2
+[2.623s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.631s] -- Checking for module 'uuid'
+[2.654s] --   Found uuid, version 2.34.0
+[2.704s] -- Found UUID: TRUE  
+[2.709s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.710s] -- Searching for dependencies of ignition-msgs5
+[2.739s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.746s] -- Checking for module 'tinyxml2'
+[2.770s] --   Found tinyxml2, version 6.2.0
+[2.823s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.827s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.827s] -- Searching for dependencies of ignition-common3
+[2.828s] -- Looking for dlfcn.h - found
+[2.830s] -- Looking for libdl - found
+[2.832s] -- Found DL: TRUE  
+[2.842s] -- Searching for <ignition-common3> component [graphics]
+[2.847s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.848s] -- Searching for dependencies of ignition-common3-graphics
+[2.848s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.855s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.856s] -- Searching for dependencies of ignition-fuel_tools4
+[2.958s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[2.972s] -- Checking for module 'jsoncpp'
+[2.994s] --   Found jsoncpp, version 1.7.4
+[3.044s] -- Found JSONCPP: TRUE  
+[3.055s] -- Checking for module 'libzip'
+[3.076s] --   Found libzip, version 1.5.1
+[3.125s] -- Found ZIP: TRUE  
+[3.126s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.126s] -- Looking for ignition-math6 -- found version 6.9.2
+[3.127s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.132s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[3.135s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.207s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.328s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.373s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.686s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.830s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.920s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.924s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.926s] -- Found Threads: TRUE  
+[4.221s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.366s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[4.387s] -- Found turtlebot3_gazebo: 2.2.3 (/home/aibes/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake)
+[4.697s] -- Configuring done
+[4.716s] -- Generating done
+[4.721s] -- Build files have been written to: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world
+[4.733s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world -DCMAKE_INSTALL_PREFIX=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world
+[4.738s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world -- -j6 -l6
+[4.798s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[4.865s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[14.013s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[14.539s] [100%] Built target turtlebot3_drive
+[14.553s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world -- -j6 -l6
+[14.603s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world
+[14.614s] -- Install configuration: ""
+[14.614s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive
+[14.619s] -- Set runtime path of "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive" to ""
+[14.620s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//launch
+[14.620s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//launch/turtlebot3_my_world.launch.py
+[14.620s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models
+[14.620s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger
+[14.620s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model-1_4.sdf
+[14.621s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.config
+[14.621s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes
+[14.621s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/lds.dae
+[14.621s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/burger_base.dae
+[14.622s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/tire.dae
+[14.622s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.sdf
+[14.623s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world
+[14.626s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.config
+[14.627s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.sdf
+[14.627s] CMake Error at cmake_install.cmake:69 (file):
+[14.627s]   file INSTALL cannot find
+[14.628s]   "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/include": No such file
+[14.628s]   or directory.
+[14.628s] 
+[14.628s] 
+[14.628s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//world
+[14.628s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//world/burger.model
+[14.629s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world
