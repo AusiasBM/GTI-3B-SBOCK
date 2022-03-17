@@ -1,0 +1,25 @@
+[100%] Built target turtlebot3_drive
+-- Install configuration: ""
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//launch
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//launch/turtlebot3_my_world.launch.py
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model-1_4.sdf
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.config
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/lds.dae
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/burger_base.dae
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/tire.dae
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.sdf
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.config
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.sdf
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//world
+-- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//world/burger.model
+CMake Error at cmake_install.cmake:69 (file):
+  file INSTALL cannot find
+  "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/include": No such file
+  or directory.
+
+

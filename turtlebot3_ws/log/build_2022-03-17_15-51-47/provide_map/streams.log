@@ -1,0 +1,40 @@
+[2.021s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/provide_map': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/provide_map build --build-base /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/provide_map/build install --prefix /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map --record /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/provide_map/install.log --single-version-externally-managed
+[2.595s] running egg_info
+[2.595s] creating ../../build/provide_map/provide_map.egg-info
+[2.595s] writing ../../build/provide_map/provide_map.egg-info/PKG-INFO
+[2.596s] writing dependency_links to ../../build/provide_map/provide_map.egg-info/dependency_links.txt
+[2.596s] writing entry points to ../../build/provide_map/provide_map.egg-info/entry_points.txt
+[2.596s] writing requirements to ../../build/provide_map/provide_map.egg-info/requires.txt
+[2.596s] writing top-level names to ../../build/provide_map/provide_map.egg-info/top_level.txt
+[2.596s] writing manifest file '../../build/provide_map/provide_map.egg-info/SOURCES.txt'
+[2.596s] reading manifest file '../../build/provide_map/provide_map.egg-info/SOURCES.txt'
+[2.596s] writing manifest file '../../build/provide_map/provide_map.egg-info/SOURCES.txt'
+[2.596s] running build
+[2.597s] running build_py
+[2.597s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/provide_map/build
+[2.597s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/provide_map/build/lib
+[2.597s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/provide_map/build/lib/provide_map
+[2.597s] copying provide_map/__init__.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/provide_map/build/lib/provide_map
+[2.597s] running install
+[2.597s] running install_lib
+[2.597s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/lib/python3.8/site-packages/provide_map
+[2.598s] copying /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/provide_map/build/lib/provide_map/__init__.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/lib/python3.8/site-packages/provide_map
+[2.598s] byte-compiling /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/lib/python3.8/site-packages/provide_map/__init__.py to __init__.cpython-38.pyc
+[2.598s] running install_data
+[2.598s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/share/ament_index
+[2.598s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/share/ament_index/resource_index
+[2.598s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/share/ament_index/resource_index/packages
+[2.598s] copying resource/provide_map -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/share/ament_index/resource_index/packages
+[2.599s] copying package.xml -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/share/provide_map
+[2.599s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/share/provide_map/map
+[2.599s] copying map/my_map.pgm -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/share/provide_map/map
+[2.599s] copying map/my_map.yaml -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/share/provide_map/map
+[2.599s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/share/provide_map/rviz
+[2.599s] copying rviz/my_slam.rviz -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/share/provide_map/rviz
+[2.599s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/share/provide_map/launch
+[2.599s] copying launch/provide_map.launch.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/share/provide_map/launch
+[2.600s] running install_egg_info
+[2.600s] Copying ../../build/provide_map/provide_map.egg-info to /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/lib/python3.8/site-packages/provide_map-0.0.0-py3.8.egg-info
+[2.600s] running install_scripts
+[2.600s] writing list of installed files to '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/provide_map/install.log'
+[2.662s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/provide_map' returned '0': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/provide_map build --build-base /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/provide_map/build install --prefix /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map --record /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/provide_map/install.log --single-version-externally-managed

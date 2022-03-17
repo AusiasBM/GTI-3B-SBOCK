@@ -5,6 +5,7 @@
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/share/ament_index/resource_index/packages/sbock_nav2_system
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/share/sbock_nav2_system/package.xml
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/share/sbock_nav2_system/launch/sbock_tb3_sim_nav2.launch.py
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/share/sbock_nav2_system/launch/sbock_initial_pose.launch.py
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/share/sbock_nav2_system/launch/sbock_nav2_system.launch.py
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/share/sbock_nav2_system/config/my_map.yaml
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system/share/sbock_nav2_system/config/nav2_params.yaml
