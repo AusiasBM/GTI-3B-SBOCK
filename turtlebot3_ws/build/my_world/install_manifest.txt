@@ -9,6 +9,7 @@
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.config
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.sdf
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//world/burger.model
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/include//my_world/archivo_relleno.txt
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/ament_index/resource_index/package_run_dependencies/my_world
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/ament_index/resource_index/parent_prefix_path/my_world
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.sh

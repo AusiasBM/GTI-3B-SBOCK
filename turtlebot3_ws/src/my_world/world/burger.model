@@ -52,7 +52,7 @@
      
     
     <include>
-      <pose>0.35 -2.4 0.00 0.0 0.0 1.5707</pose>
+      <pose>0.35 -2.4 0.00 0.0 0.0 3.1415</pose>
       <uri>model://turtlebot3_burger</uri>
     </include>
 

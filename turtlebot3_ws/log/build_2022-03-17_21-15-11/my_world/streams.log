@@ -1,0 +1,43 @@
+[0.029s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world -- -j6 -l6
+[0.192s] [100%] Built target turtlebot3_drive
+[0.224s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world -- -j6 -l6
+[0.331s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world
+[0.350s] -- Install configuration: ""
+[0.351s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive
+[0.352s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//launch
+[0.352s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//launch/turtlebot3_my_world.launch.py
+[0.352s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models
+[0.352s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger
+[0.353s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model-1_4.sdf
+[0.353s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.config
+[0.353s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes
+[0.354s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/lds.dae
+[0.354s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/burger_base.dae
+[0.354s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/tire.dae
+[0.355s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.sdf
+[0.355s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world
+[0.355s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.config
+[0.355s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.sdf
+[0.356s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//world
+[0.356s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world//world/burger.model
+[0.357s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/include/
+[0.357s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/include//my_world
+[0.357s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/include//my_world/archivo_relleno.txt
+[0.358s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/ament_index/resource_index/package_run_dependencies/my_world
+[0.359s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/ament_index/resource_index/parent_prefix_path/my_world
+[0.360s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.sh
+[0.361s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.dsv
+[0.362s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/environment/path.sh
+[0.362s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/environment/path.dsv
+[0.363s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/local_setup.bash
+[0.363s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/local_setup.sh
+[0.364s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/local_setup.zsh
+[0.365s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/local_setup.dsv
+[0.365s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/package.dsv
+[0.367s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/ament_index/resource_index/packages/my_world
+[0.367s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.369s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.369s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig.cmake
+[0.370s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig-version.cmake
+[0.371s] -- Up-to-date: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_world/share/my_world/package.xml
+[0.375s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav2_system:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/my_first_node:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world
