@@ -1,0 +1,3 @@
+[console_scripts]
+route = sbock_nav_route.prova:main
+

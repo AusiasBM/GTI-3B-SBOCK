@@ -1,0 +1,15 @@
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/ament_index/resource_index/package_run_dependencies/sbock
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/ament_index/resource_index/parent_prefix_path/sbock
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/sbock/environment/ament_prefix_path.sh
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/sbock/environment/ament_prefix_path.dsv
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/sbock/environment/path.sh
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/sbock/environment/path.dsv
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/sbock/local_setup.bash
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/sbock/local_setup.sh
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/sbock/local_setup.zsh
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/sbock/local_setup.dsv
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/sbock/package.dsv
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/ament_index/resource_index/packages/sbock
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/sbock/cmake/sbockConfig.cmake
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/sbock/cmake/sbockConfig-version.cmake
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock/share/sbock/package.xml
