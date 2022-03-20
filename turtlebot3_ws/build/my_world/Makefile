@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world
+CMAKE_SOURCE_DIR = /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/my_world
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/my_world

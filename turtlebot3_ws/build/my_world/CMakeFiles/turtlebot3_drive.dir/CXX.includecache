@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/src/turtlebot3_drive.cpp
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/my_world/src/turtlebot3_drive.cpp
 turtlebot3_drive.hpp
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/src/turtlebot3_drive.hpp
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/my_world/src/turtlebot3_drive.hpp
 memory
 -
 
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/src/turtlebot3_drive.hpp
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/my_world/src/turtlebot3_drive.hpp
 geometry_msgs/msg/twist.hpp
 -
 nav_msgs/msg/odometry.hpp
