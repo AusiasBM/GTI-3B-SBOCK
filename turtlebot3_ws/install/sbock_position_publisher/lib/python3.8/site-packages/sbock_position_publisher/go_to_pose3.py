@@ -5,12 +5,9 @@ from rclpy.node import Node
 from geometry_msgs.msg import Pose
 
 # creamos una clase pasándole como parámetro el Nodo
-class GoToPos3(Node):
+class Go_To_Pos3(Node):
 
     def __init__(self):
-        # Constructor de la clase
-        # ejecutamos super() para inicializar el Nodo
-        # introducimos le nombre del nodo como parámetro
         super().__init__('pos3_publisher')
         # creamos el objeto publisher
         # que publicara en el topic /cmd_vel 
@@ -20,10 +17,6 @@ class GoToPos3(Node):
     
     def publish_pos(self):
         pose = Pose()
-        # Header
-        #pose.header.frame_id = 'map'
-
-        #Pose
         pose.position.x = -1.4
         pose.position.y = 1.1
         pose.orientation.w = 1.0
@@ -31,21 +24,12 @@ class GoToPos3(Node):
         self.goal_pose_publisher.publish(pose)
         exit(0)
     	
-        
-        
-            
+                   
 def main(args=None):
     # inicializa la comunicación
     rclpy.init(args=args)
     # declara el constructor del nodo 
-    simple_publisher = GoToPos3()
-    # dejamos vivo el nodo
-    # para parar el programa habrá que matar el node (ctrl+c)
-    rclpy.spin(simple_publisher)
-    # destruye en nodo
-    simple_publisher.destroy_node()
-    # se cierra la comunicacion ROS
-    rclpy.shutdown()
+    simple_publisher = Go_To_Pos3()
 
 if __name__ == '__main__':
     main()

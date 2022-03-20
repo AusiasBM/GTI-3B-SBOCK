@@ -1,0 +1,48 @@
+[1.710s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_nav_route': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sbock_nav_route build --build-base /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav_route/build install --prefix /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route --record /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav_route/install.log --single-version-externally-managed
+[2.052s] running egg_info
+[2.052s] creating ../../../build/sbock_nav_route/sbock_nav_route.egg-info
+[2.053s] writing ../../../build/sbock_nav_route/sbock_nav_route.egg-info/PKG-INFO
+[2.053s] writing dependency_links to ../../../build/sbock_nav_route/sbock_nav_route.egg-info/dependency_links.txt
+[2.054s] writing entry points to ../../../build/sbock_nav_route/sbock_nav_route.egg-info/entry_points.txt
+[2.054s] writing requirements to ../../../build/sbock_nav_route/sbock_nav_route.egg-info/requires.txt
+[2.054s] writing top-level names to ../../../build/sbock_nav_route/sbock_nav_route.egg-info/top_level.txt
+[2.056s] writing manifest file '../../../build/sbock_nav_route/sbock_nav_route.egg-info/SOURCES.txt'
+[2.120s] reading manifest file '../../../build/sbock_nav_route/sbock_nav_route.egg-info/SOURCES.txt'
+[2.121s] writing manifest file '../../../build/sbock_nav_route/sbock_nav_route.egg-info/SOURCES.txt'
+[2.121s] running build
+[2.122s] running build_py
+[2.122s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav_route/build
+[2.122s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav_route/build/lib
+[2.122s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav_route/build/lib/sbock_nav_route
+[2.123s] copying sbock_nav_route/__init__.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav_route/build/lib/sbock_nav_route
+[2.123s] copying sbock_nav_route/prova.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav_route/build/lib/sbock_nav_route
+[2.123s] running install
+[2.125s] running install_lib
+[2.126s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/lib/python3.8/site-packages/sbock_nav_route
+[2.126s] copying /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav_route/build/lib/sbock_nav_route/__init__.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/lib/python3.8/site-packages/sbock_nav_route
+[2.127s] copying /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav_route/build/lib/sbock_nav_route/prova.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/lib/python3.8/site-packages/sbock_nav_route
+[2.128s] byte-compiling /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/lib/python3.8/site-packages/sbock_nav_route/__init__.py to __init__.cpython-38.pyc
+[2.130s] byte-compiling /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/lib/python3.8/site-packages/sbock_nav_route/prova.py to prova.cpython-38.pyc
+[2.132s] running install_data
+[2.133s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/ament_index
+[2.133s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/ament_index/resource_index
+[2.133s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/ament_index/resource_index/packages
+[2.133s] copying resource/sbock_nav_route -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/ament_index/resource_index/packages
+[2.134s] copying package.xml -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/sbock_nav_route
+[2.134s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/sbock_nav_route/config
+[2.134s] copying config/my_map.pgm -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/sbock_nav_route/config
+[2.134s] copying config/my_map.yaml -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/sbock_nav_route/config
+[2.135s] copying config/nav2_params.yaml -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/sbock_nav_route/config
+[2.135s] copying config/project_params.yaml -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/sbock_nav_route/config
+[2.136s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/sbock_nav_route/rviz
+[2.136s] creating /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/sbock_nav_route/launch
+[2.136s] copying launch/sbock_tb3_route_nav.launch.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/sbock_nav_route/launch
+[2.136s] copying launch/prova.launch.py -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/sbock_nav_route/launch
+[2.137s] copying config/navigate_w_replanning_and_recovery.xml -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/sbock_nav_route/config
+[2.137s] copying config/navigate_through_poses_w_replanning_and_recovery.xml -> /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/sbock_nav_route/config
+[2.137s] running install_egg_info
+[2.140s] Copying ../../../build/sbock_nav_route/sbock_nav_route.egg-info to /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/lib/python3.8/site-packages/sbock_nav_route-0.0.0-py3.8.egg-info
+[2.141s] running install_scripts
+[2.177s] Installing route script to /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/lib/sbock_nav_route
+[2.177s] writing list of installed files to '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav_route/install.log'
+[2.210s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_nav_route' returned '0': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sbock_nav_route build --build-base /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav_route/build install --prefix /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route --record /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_nav_route/install.log --single-version-externally-managed

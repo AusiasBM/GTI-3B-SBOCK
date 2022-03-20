@@ -1,0 +1,321 @@
+[0.016s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/my_first_action:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo
+[0.131s] -- The C compiler identification is GNU 9.4.0
+[0.247s] -- The CXX compiler identification is GNU 9.4.0
+[0.256s] -- Check for working C compiler: /usr/bin/cc
+[0.354s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.354s] -- Detecting C compiler ABI info
+[0.434s] -- Detecting C compiler ABI info - done
+[0.483s] -- Detecting C compile features
+[0.489s] -- Detecting C compile features - done
+[0.490s] -- Check for working CXX compiler: /usr/bin/c++
+[0.630s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.631s] -- Detecting CXX compiler ABI info
+[0.762s] -- Detecting CXX compiler ABI info - done
+[0.787s] -- Detecting CXX compile features
+[0.788s] -- Detecting CXX compile features - done
+[0.795s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.845s] -- Found PythonInterp: /home/aibes/virtualenvs/rosenv/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.845s] -- Using PYTHON_EXECUTABLE: /home/aibes/virtualenvs/rosenv/bin/python3
+[1.101s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.108s] -- Checking for module 'bullet>=2.82'
+[1.132s] --   Found bullet, version 2.88
+[1.307s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.376s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.445s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.483s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.923s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.964s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.972s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.981s] -- Searching for dependencies of ignition-math6
+[1.984s] -- Looking for OGRE...
+[1.985s] -- OGRE_PREFIX_WATCH changed.
+[1.995s] -- Checking for module 'OGRE'
+[2.015s] --   Found OGRE, version 1.9.0
+[2.071s] -- Found Ogre Ghadamon (1.9.0)
+[2.089s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.106s] -- Looking for OGRE_Paging...
+[2.122s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.122s] -- Looking for OGRE_Terrain...
+[2.141s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.142s] -- Looking for OGRE_Property...
+[2.157s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.157s] -- Looking for OGRE_RTShaderSystem...
+[2.172s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.173s] -- Looking for OGRE_Volume...
+[2.189s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.189s] -- Looking for OGRE_Overlay...
+[2.205s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.572s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.575s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.576s] -- Searching for dependencies of ignition-transport8
+[2.603s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[2.619s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.625s] -- Checking for module 'libzmq >= 4'
+[2.670s] --   Found libzmq , version 4.3.2
+[2.721s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.731s] -- Checking for module 'uuid'
+[2.754s] --   Found uuid, version 2.34.0
+[2.810s] -- Found UUID: TRUE  
+[2.817s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.818s] -- Searching for dependencies of ignition-msgs5
+[2.850s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.857s] -- Checking for module 'tinyxml2'
+[2.876s] --   Found tinyxml2, version 6.2.0
+[2.940s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.945s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.946s] -- Searching for dependencies of ignition-common3
+[2.947s] -- Looking for dlfcn.h - found
+[2.958s] -- Looking for libdl - found
+[2.960s] -- Found DL: TRUE  
+[2.985s] -- Searching for <ignition-common3> component [graphics]
+[2.989s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.990s] -- Searching for dependencies of ignition-common3-graphics
+[2.991s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.996s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.997s] -- Searching for dependencies of ignition-fuel_tools4
+[3.221s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[3.233s] -- Checking for module 'jsoncpp'
+[3.260s] --   Found jsoncpp, version 1.7.4
+[3.307s] -- Found JSONCPP: TRUE  
+[3.317s] -- Checking for module 'libzip'
+[3.337s] --   Found libzip, version 1.5.1
+[3.389s] -- Found ZIP: TRUE  
+[3.390s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.391s] -- Looking for ignition-math6 -- found version 6.9.2
+[3.391s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.396s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[3.400s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.450s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.464s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.583s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.628s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.792s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.964s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.118s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.204s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.208s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.211s] -- Found Threads: TRUE  
+[4.502s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.675s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[4.962s] -- Configuring done
+[5.129s] -- Generating done
+[5.135s] -- Build files have been written to: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo
+[5.158s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/my_first_action:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo
+[5.159s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/my_first_action:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo -- -j4 -l4
+[5.214s] [35m[1mScanning dependencies of target obstacle2[0m
+[5.218s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[5.231s] [35m[1mScanning dependencies of target obstacles[0m
+[5.234s] [35m[1mScanning dependencies of target obstacle1[0m
+[5.389s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[6.194s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[6.229s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[6.290s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[23.536s] [ 62%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[24.395s] [ 62%] Built target turtlebot3_drive
+[30.846s] [ 75%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[30.962s] [ 87%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[31.253s] [100%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[31.411s] [100%] Built target obstacles
+[31.435s] [100%] Built target obstacle1
+[31.667s] [100%] Built target obstacle2
+[31.686s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/my_first_action:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo -- -j4 -l4
+[31.728s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/my_first_action:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo
+[31.737s] -- Install configuration: ""
+[31.737s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[31.742s] -- Set runtime path of "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""
+[31.742s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+[31.742s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[31.742s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[31.743s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[31.743s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[31.743s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[31.743s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace.launch.py
+[31.743s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[31.743s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[31.743s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[31.744s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+[31.744s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger
+[31.744s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[31.744s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[31.744s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes
+[31.744s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[31.744s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[31.744s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae
+[31.745s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[31.745s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+[31.745s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[31.745s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[31.745s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes
+[31.745s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae
+[31.745s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae
+[31.746s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae
+[31.746s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/tire.dae
+[31.746s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[31.749s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world
+[31.749s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box
+[31.749s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[31.749s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[31.750s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin
+[31.750s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[31.750s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[31.750s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[31.750s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[31.751s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[31.751s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles
+[31.751s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[31.751s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[31.751s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls
+[31.751s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[31.752s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[31.752s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1
+[31.752s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[31.752s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[31.752s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[31.752s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2
+[31.752s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[31.753s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[31.753s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+[31.753s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[31.753s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[31.753s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+[31.753s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[31.754s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[31.755s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes
+[31.756s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae
+[31.756s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae
+[31.756s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/tire.dae
+[31.756s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[31.757s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace
+[31.757s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking
+[31.757s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.config
+[31.757s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.sdf
+[31.758s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials
+[31.758s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures
+[31.758s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures/traffic_parking.png
+[31.758s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts
+[31.758s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts/traffic_parking.material
+[31.758s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green
+[31.758s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.config
+[31.759s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.sdf
+[31.759s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall
+[31.759s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.config
+[31.759s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.sdf
+[31.759s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up
+[31.760s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.config
+[31.760s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.sdf
+[31.760s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials
+[31.760s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures
+[31.761s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures/traffic_bar.png
+[31.761s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts
+[31.761s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts/traffic_bar.material
+[31.761s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/model.config
+[31.762s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop
+[31.762s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.config
+[31.762s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.sdf
+[31.762s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials
+[31.762s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures
+[31.763s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures/traffic_stop.png
+[31.763s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts
+[31.763s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts/traffic_stop.material
+[31.765s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow
+[31.765s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.config
+[31.765s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.sdf
+[31.765s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red
+[31.765s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.config
+[31.765s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.sdf
+[31.766s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course
+[31.766s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.config
+[31.766s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.sdf
+[31.766s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials
+[31.766s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures
+[31.766s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures/course.png
+[31.767s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts
+[31.767s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts/course.material
+[31.767s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights
+[31.767s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.config
+[31.767s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.sdf
+[31.767s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground
+[31.768s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.config
+[31.768s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.sdf
+[31.768s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles
+[31.768s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.config
+[31.768s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.sdf
+[31.768s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel
+[31.768s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.config
+[31.769s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.sdf
+[31.769s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials
+[31.769s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures
+[31.769s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures/tunnel.png
+[31.769s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts
+[31.769s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts/tunnel.material
+[31.770s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down
+[31.770s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.config
+[31.770s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.sdf
+[31.770s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials
+[31.771s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures
+[31.771s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures/traffic_bar.png
+[31.771s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts
+[31.771s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts/traffic_bar.material
+[31.771s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+[31.771s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[31.771s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[31.771s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+[31.771s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[31.772s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[31.772s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[31.772s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+[31.773s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[31.773s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+[31.775s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces
+[31.775s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/burger.model
+[31.776s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle.model
+[31.776s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle_pi.model
+[31.776s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3
+[31.776s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/burger.model
+[31.776s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle.model
+[31.777s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle_pi.model
+[31.777s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds
+[31.777s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
+[31.777s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
+[31.777s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
+[31.777s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2
+[31.777s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/burger.model
+[31.778s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle.model
+[31.778s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle_pi.model
+[31.778s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1
+[31.778s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/burger.model
+[31.778s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle.model
+[31.778s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle_pi.model
+[31.778s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds
+[31.779s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model
+[31.779s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model
+[31.779s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model
+[31.779s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses
+[31.779s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model
+[31.779s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model
+[31.779s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model
+[31.779s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4
+[31.779s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/burger.model
+[31.779s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle.model
+[31.780s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle_pi.model
+[31.780s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/include/
+[31.780s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+[31.780s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[31.780s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[31.780s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[31.780s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[31.780s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[31.780s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[31.780s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[31.780s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[31.781s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[31.781s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[31.781s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[31.781s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[31.781s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[31.781s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.782s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.782s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[31.782s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[31.782s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[31.782s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/my_first_action:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo

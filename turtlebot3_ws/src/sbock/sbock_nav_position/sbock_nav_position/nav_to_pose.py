@@ -1,5 +1,3 @@
-
-
 import rclpy
 from rclpy.action import ActionClient
 from rclpy.node import Node
@@ -9,7 +7,15 @@ from action_msgs.msg import GoalStatus
 from rclpy.qos import ReliabilityPolicy, QoSProfile
 
 
-class NavToPose(Node):
+class Nav_To_Pose(Node):
+    '''
+    Nodo que crea una subscripcion al topic /pose del que se espera que se le pase una posicion del mapa
+    a la que el robot se debera dirigir. La navegación se lanza a traves de la accion NavigateToPose
+
+    Atributes:
+        self.__goal_handle: Manejador de la accion
+        self.__action_client: Acción de NavigateToPose
+    '''
 
     def __init__(self):
         super().__init__('nav_to_pose_node')
@@ -17,7 +23,7 @@ class NavToPose(Node):
         self.__goal_handle = None
         self.__action_client = None
 
-        #Creamos el objeto suscriptor que recibira un mensaje de tipo Pose con la posición de destino:
+        #Creamos el objeto suscriptor que recibira un mensaje de tipo Pose con la posicion de destino:
         #nodo
         #topic
         #nombre de la accion a ejecutar
@@ -29,7 +35,10 @@ class NavToPose(Node):
 
 
     def __goalPoseCallback(self, msg):
-
+        '''
+        Callback que es llamado cuando se recibe un mensaje del topic /pose con la posición de destino, y se 
+        lanza la accion.
+        '''
         #Creamos un cliente de la accion NavigateToPose
         self.__action_client = ActionClient(self, NavigateToPose, 'navigate_to_pose')
 
@@ -42,9 +51,13 @@ class NavToPose(Node):
         self.__send_goal(pose)
 
 
-    #definimos la funcion de mandar goal
     def __send_goal(self, pose):
+        '''
+        Metodo que lanza el objetivo que debe alcanzar
 
+        Atr:
+            pose: objeto de tipo PoseStamped
+        '''
         #espera a que el servidor este listo
         self.get_logger().info("Waiting for 'NavigateToPose' action server")
         while not self.__action_client.wait_for_server(timeout_sec=1.0):
@@ -68,9 +81,7 @@ class NavToPose(Node):
         self._send_goal_future.add_done_callback(self.__goal_response_callback)
 
     
-    #definimos la funcion de respuesta al goal
     def __goal_response_callback(self, future):
-
         self.__goal_handle = future.result()
         if not self.__goal_handle.accepted:
             self.get_logger().info('Goal rejected :(')
@@ -86,9 +97,9 @@ class NavToPose(Node):
         #rclpy.spin_until_future_complete(self, self._get_result_future)
         self._get_result_future.add_done_callback(self.__get_result_callback)
     
+
     #definimos la funcion de respuesta al resultado
     def __get_result_callback(self, future):
-
         self.status = future.result().status
         if self.status != GoalStatus.STATUS_SUCCEEDED:
             self.get_logger().info('Navigation failed with status code: {0}'.format(self.status))
@@ -97,15 +108,16 @@ class NavToPose(Node):
         
         self.__reset_action()
 
-        #rclpy.shutdown()
 
-    #definimos la funcion de respuesta al feedback
     def __feedback_callback(self, feedback_msg):
         self.feedback = feedback_msg.feedback
         return
     
-    #Metodo para resetear los atributos __goal_handle y __action_client
+
     def __reset_action(self):
+        '''
+        Metodo para borrar la accion y el manejador una vez termina la accion
+        '''
         self.__goal_handle = None
         self.__action_client = None
 
@@ -113,17 +125,7 @@ class NavToPose(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    action_client = NavToPose()
-    '''
-    # Crear la posicion de tipo PoseStamped (para pasar al Goal de la accion NavigateToPose)
-    goal_pose = PoseStamped()
-    # Header
-    goal_pose.header.frame_id = 'map'
-    goal_pose.header.stamp = action_client.get_clock().now().to_msg()
-    #Pose
-    goal_pose.pose.position.x = -2.6
-    goal_pose.pose.position.y = 0.7
-    goal_pose.pose.orientation.w = 1.0'''
+    action_client = Nav_To_Pose()
 
     rclpy.spin(action_client)
 
