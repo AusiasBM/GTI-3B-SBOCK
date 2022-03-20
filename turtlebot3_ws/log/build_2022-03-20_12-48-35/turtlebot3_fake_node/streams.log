@@ -1,0 +1,85 @@
+[0.112s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/my_first_action:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_position_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node
+[0.226s] -- The C compiler identification is GNU 9.4.0
+[0.317s] -- The CXX compiler identification is GNU 9.4.0
+[0.326s] -- Check for working C compiler: /usr/bin/cc
+[0.419s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.420s] -- Detecting C compiler ABI info
+[0.517s] -- Detecting C compiler ABI info - done
+[0.540s] -- Detecting C compile features
+[0.541s] -- Detecting C compile features - done
+[0.545s] -- Check for working CXX compiler: /usr/bin/c++
+[0.650s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.652s] -- Detecting CXX compiler ABI info
+[0.762s] -- Detecting CXX compiler ABI info - done
+[0.792s] -- Detecting CXX compile features
+[0.793s] -- Detecting CXX compile features - done
+[0.798s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.847s] -- Found PythonInterp: /home/aibes/virtualenvs/rosenv/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.847s] -- Using PYTHON_EXECUTABLE: /home/aibes/virtualenvs/rosenv/bin/python3
+[1.106s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.186s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.307s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.354s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.655s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.799s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.891s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.896s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.897s] -- Looking for pthread.h
+[1.996s] -- Looking for pthread.h - found
+[1.996s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.095s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.095s] -- Looking for pthread_create in pthreads
+[2.174s] -- Looking for pthread_create in pthreads - not found
+[2.174s] -- Looking for pthread_create in pthread
+[2.272s] -- Looking for pthread_create in pthread - found
+[2.274s] -- Found Threads: TRUE  
+[2.555s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.696s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[2.721s] -- Found tf2_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[3.093s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/foxy/share/turtlebot3_msgs/cmake)
+[3.527s] -- Configuring done
+[3.551s] -- Generating done
+[3.553s] -- Build files have been written to: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node
+[3.565s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/my_first_action:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_position_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node
+[3.569s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/my_first_action:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_position_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node -- -j6 -l6
+[3.622s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[3.683s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[13.333s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[13.910s] [100%] Built target turtlebot3_fake_node
+[13.929s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/my_first_action:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_position_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node -- -j6 -l6
+[13.983s] Invoking command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/my_first_action:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_position_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node
+[13.997s] -- Install configuration: ""
+[13.998s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[14.001s] -- Set runtime path of "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[14.002s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[14.002s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[14.002s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[14.002s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[14.002s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[14.002s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[14.002s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[14.003s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz
+[14.003s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz/model.rviz
+[14.003s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/include/
+[14.003s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[14.003s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[14.003s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[14.003s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[14.004s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[14.004s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[14.004s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[14.004s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[14.004s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[14.004s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[14.005s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[14.005s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[14.005s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[14.005s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[14.005s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.005s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.006s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[14.006s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[14.006s] -- Installing: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[14.011s] Invoked command in '/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aibes/turtlebot3_ws/install/show_msg:/home/aibes/turtlebot3_ws/install/provide_map:/home/aibes/turtlebot3_ws/install/my_slam:/home/aibes/turtlebot3_ws/install/my_nav2_system:/home/aibes/turtlebot3_ws/install/my_first_subscriber:/home/aibes/turtlebot3_ws/install/my_first_service:/home/aibes/turtlebot3_ws/install/my_first_publisher:/home/aibes/turtlebot3_ws/install/my_first_node:/home/aibes/turtlebot3_ws/install/my_first_action:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_position_publisher:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position:/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/opt/ros/foxy PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node

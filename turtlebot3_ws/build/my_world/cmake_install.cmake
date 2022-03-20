@@ -1,4 +1,4 @@
-# Install script for directory: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world
+# Install script for directory: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/my_world
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -59,14 +59,14 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_world/" TYPE DIRECTORY FILES
-    "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/launch"
-    "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/models"
-    "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/world"
+    "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/my_world/launch"
+    "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/my_world/models"
+    "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/my_world/world"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/" TYPE DIRECTORY FILES "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/" TYPE DIRECTORY FILES "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/my_world/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -133,7 +133,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_world" TYPE FILE FILES "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/my_world/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_world" TYPE FILE FILES "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/my_world/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
