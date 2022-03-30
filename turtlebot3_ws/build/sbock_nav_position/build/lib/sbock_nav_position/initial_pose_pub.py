@@ -24,9 +24,9 @@ class Publisher_ini_pos(Node):
         '''
         msg = PoseWithCovarianceStamped()
         msg.header.frame_id = 'map'
-        msg.pose.pose.position.x = -0.3
-        msg.pose.pose.position.y = 1.1
-        msg.pose.pose.orientation.z = 1.0 
+        msg.pose.pose.position.x = 0.0
+        msg.pose.pose.position.y = 0.0
+        msg.pose.pose.orientation.z = 0.0 
         msg.pose.pose.orientation.w = 0.0 
         self.publisher_.publish(msg)
         exit(0)

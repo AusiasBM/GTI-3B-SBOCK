@@ -9,8 +9,10 @@ setup.py
 ../../../build/sbock_nav_position/sbock_nav_position.egg-info/requires.txt
 ../../../build/sbock_nav_position/sbock_nav_position.egg-info/top_level.txt
 ../../../build/sbock_nav_position/sbock_nav_position.egg-info/zip-safe
-config/my_map.pgm
-config/my_map.yaml
+config/mapa_real.pgm
+config/mapa_real.yaml
+config/mapa_supermercado_real.pgm
+config/mapa_supermercado_real.yaml
 config/my_slam.rviz
 config/nav2_default_view.rviz
 config/nav2_default_view_new.rviz
