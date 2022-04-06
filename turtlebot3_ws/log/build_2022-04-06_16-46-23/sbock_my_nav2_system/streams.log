@@ -1,0 +1,54 @@
+[2.468s] Invoking command in '/home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_my_nav2_system': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sbock_my_nav2_system build --build-base /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/build install --prefix /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system --record /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/install.log --single-version-externally-managed
+[3.244s] running egg_info
+[3.246s] creating ../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info
+[3.246s] writing ../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/PKG-INFO
+[3.247s] writing dependency_links to ../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/dependency_links.txt
+[3.247s] writing entry points to ../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/entry_points.txt
+[3.248s] writing requirements to ../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/requires.txt
+[3.248s] writing top-level names to ../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/top_level.txt
+[3.252s] writing manifest file '../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/SOURCES.txt'
+[3.338s] reading manifest file '../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/SOURCES.txt'
+[3.340s] writing manifest file '../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/SOURCES.txt'
+[3.341s] running build
+[3.341s] running build_py
+[3.343s] creating /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/build
+[3.344s] creating /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/build/lib
+[3.344s] creating /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/build/lib/sbock_my_nav2_system
+[3.344s] copying sbock_my_nav2_system/nav_to_pose.py -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/build/lib/sbock_my_nav2_system
+[3.344s] copying sbock_my_nav2_system/initialPose.py -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/build/lib/sbock_my_nav2_system
+[3.345s] copying sbock_my_nav2_system/__init__.py -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/build/lib/sbock_my_nav2_system
+[3.345s] running install
+[3.346s] running install_lib
+[3.349s] creating /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/python3.8/site-packages/sbock_my_nav2_system
+[3.349s] copying /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/build/lib/sbock_my_nav2_system/nav_to_pose.py -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/python3.8/site-packages/sbock_my_nav2_system
+[3.350s] copying /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/build/lib/sbock_my_nav2_system/initialPose.py -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/python3.8/site-packages/sbock_my_nav2_system
+[3.350s] copying /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/build/lib/sbock_my_nav2_system/__init__.py -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/python3.8/site-packages/sbock_my_nav2_system
+[3.351s] byte-compiling /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/python3.8/site-packages/sbock_my_nav2_system/nav_to_pose.py to nav_to_pose.cpython-38.pyc
+[3.355s] byte-compiling /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/python3.8/site-packages/sbock_my_nav2_system/initialPose.py to initialPose.cpython-38.pyc
+[3.358s] byte-compiling /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/python3.8/site-packages/sbock_my_nav2_system/__init__.py to __init__.cpython-38.pyc
+[3.358s] running install_data
+[3.359s] creating /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/ament_index
+[3.359s] creating /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/ament_index/resource_index
+[3.359s] creating /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/ament_index/resource_index/packages
+[3.360s] copying resource/sbock_my_nav2_system -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/ament_index/resource_index/packages
+[3.360s] copying package.xml -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/sbock_my_nav2_system
+[3.362s] creating /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/sbock_my_nav2_system/config
+[3.362s] copying config/my_map.pgm -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/sbock_my_nav2_system/config
+[3.362s] copying config/project_params.yaml -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/sbock_my_nav2_system/config
+[3.363s] copying config/nav2_params.yaml -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/sbock_my_nav2_system/config
+[3.364s] copying config/my_map.yaml -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/sbock_my_nav2_system/config
+[3.364s] copying config/my_slam.rviz -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/sbock_my_nav2_system/config
+[3.364s] copying config/nav2_default_view_new.rviz -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/sbock_my_nav2_system/config
+[3.365s] creating /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/sbock_my_nav2_system/launch
+[3.365s] copying launch/my_tb3_sim_nav2.launch.py -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/sbock_my_nav2_system/launch
+[3.366s] copying launch/my_nav2_system.launch.py -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/sbock_my_nav2_system/launch
+[3.367s] copying launch/initial_pose.launch.py -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/sbock_my_nav2_system/launch
+[3.367s] copying launch/nav_to_pose.launch.py -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/sbock_my_nav2_system/launch
+[3.367s] copying config/navigate_w_replanning_and_recovery.xml -> /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/share/sbock_my_nav2_system/config
+[3.369s] running install_egg_info
+[3.369s] Copying ../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info to /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/python3.8/site-packages/sbock_my_nav2_system-0.0.0-py3.8.egg-info
+[3.369s] running install_scripts
+[3.418s] Installing initialPose script to /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/my_nav2_system
+[3.418s] Installing nav_to_pose script to /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/my_nav2_system
+[3.419s] writing list of installed files to '/home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/install.log'
+[3.480s] Invoked command in '/home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_my_nav2_system' returned '0': PS1=(rosenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sbock_my_nav2_system build --build-base /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/build install --prefix /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system --record /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/install.log --single-version-externally-managed

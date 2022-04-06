@@ -1,0 +1,22 @@
+[0.553s] Invoking command in '/home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_my_nav2_system': PYTHONPATH=/home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sbock_my_nav2_system build --build-base /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/build install --prefix /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system --record /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/install.log --single-version-externally-managed
+[0.736s] running egg_info
+[0.736s] writing ../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/PKG-INFO
+[0.736s] writing dependency_links to ../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/dependency_links.txt
+[0.737s] writing entry points to ../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/entry_points.txt
+[0.737s] writing requirements to ../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/requires.txt
+[0.737s] writing top-level names to ../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/top_level.txt
+[0.771s] reading manifest file '../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/SOURCES.txt'
+[0.772s] writing manifest file '../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info/SOURCES.txt'
+[0.772s] running build
+[0.772s] running build_py
+[0.773s] running install
+[0.773s] running install_lib
+[0.775s] running install_data
+[0.775s] running install_egg_info
+[0.777s] removing '/home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/python3.8/site-packages/sbock_my_nav2_system-0.0.0-py3.8.egg-info' (and everything under it)
+[0.777s] Copying ../../../build/sbock_my_nav2_system/sbock_my_nav2_system.egg-info to /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/python3.8/site-packages/sbock_my_nav2_system-0.0.0-py3.8.egg-info
+[0.778s] running install_scripts
+[0.795s] Installing initialPose script to /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/my_nav2_system
+[0.795s] Installing nav_to_pose script to /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/my_nav2_system
+[0.795s] writing list of installed files to '/home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/install.log'
+[0.819s] Invoked command in '/home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_my_nav2_system' returned '0': PYTHONPATH=/home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sbock_my_nav2_system build --build-base /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/build install --prefix /home/pere/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_nav2_system --record /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_nav2_system/install.log --single-version-externally-managed

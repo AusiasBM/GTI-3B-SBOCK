@@ -1,0 +1,13 @@
+[0.000000] (-) TimerEvent: {}
+[0.000279] (-) JobUnselected: {'identifier': 'provide_map'}
+[0.000459] (-) JobUnselected: {'identifier': 'sbock'}
+[0.000652] (-) JobUnselected: {'identifier': 'sbock_my_nav2_system'}
+[0.000712] (-) JobUnselected: {'identifier': 'sbock_my_world'}
+[0.000754] (-) JobUnselected: {'identifier': 'sbock_nav_position'}
+[0.000786] (-) JobUnselected: {'identifier': 'sbock_nav_route'}
+[0.000821] (-) JobUnselected: {'identifier': 'sbock_position_publisher'}
+[0.000891] (-) JobUnselected: {'identifier': 'sbock_robot_position_subscriber'}
+[0.000960] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001040] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001081] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001100] (-) EventReactorShutdown: {}
