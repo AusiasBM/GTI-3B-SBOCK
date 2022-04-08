@@ -30,7 +30,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'initial_pose_pub = sbock_nav_position.initial_pose_pub:main',
             'nav_to_pose = sbock_nav_position.nav_to_pose:main',
 
         ],

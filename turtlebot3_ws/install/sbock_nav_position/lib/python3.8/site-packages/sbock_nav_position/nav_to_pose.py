@@ -2,9 +2,12 @@ import rclpy
 from rclpy.action import ActionClient
 from rclpy.node import Node
 from nav2_msgs.action import NavigateToPose
-from geometry_msgs.msg import Pose, PoseStamped
+from geometry_msgs.msg import Pose, PoseStamped, PoseWithCovarianceStamped
 from action_msgs.msg import GoalStatus
-from rclpy.qos import ReliabilityPolicy, QoSProfile
+from rclpy.qos import ReliabilityPolicy, QoSProfile, QoSDurabilityPolicy, QoSHistoryPolicy, QoSReliabilityPolicy, QoSLivelinessPolicy
+import sys
+from rclpy.duration import Duration
+import time
 
 
 class Nav_To_Pose(Node):
@@ -16,12 +19,23 @@ class Nav_To_Pose(Node):
         self.__goal_handle: Manejador de la accion
         self.__action_client: Acción de NavigateToPose
     '''
+    
+    qos_profile = QoSProfile(depth = 10)
+    qos_profile.reliability = QoSReliabilityPolicy.RELIABLE # RELIABLE o BEST_EFFORT
+    qos_profile.durability = QoSDurabilityPolicy.VOLATILE # VOLATILE o TRANSIENT_LOCAL
+    qos_profile.history = QoSHistoryPolicy.KEEP_LAST # KEEP_ALL o KEEP_LAST
+    qos_profile.liveliness = QoSLivelinessPolicy.AUTOMATIC # MANUAL BY TOPIC o AUTOMATIC
+    qos_profile.deadline = Duration(seconds = 2.0)
 
     def __init__(self):
         super().__init__('nav_to_pose_node')
 
         self.__goal_handle = None
         self.__action_client = None
+        self.__charged_initial_pose = False
+        
+        self.publisher_ = self.create_publisher(PoseWithCovarianceStamped, 'initialpose', self.qos_profile)
+        self.__callback_initial_pose()
 
         #Creamos el objeto suscriptor que recibira un mensaje de tipo Pose con la posicion de destino:
         #nodo
@@ -38,7 +52,7 @@ class Nav_To_Pose(Node):
         '''
         Callback que es llamado cuando se recibe un mensaje del topic /pose con la posición de destino, y se 
         lanza la accion.
-        '''
+        '''           
         #Creamos un cliente de la accion NavigateToPose
         self.__action_client = ActionClient(self, NavigateToPose, 'navigate_to_pose')
 
@@ -49,6 +63,21 @@ class Nav_To_Pose(Node):
 
         #Llamamos al metodo que iniciará el proceso para que el robot vaya a la posicion de desino
         self.__send_goal(pose)
+    
+
+
+    def __callback_initial_pose(self):
+        msg = PoseWithCovarianceStamped()
+        msg.header.frame_id = 'map'
+        msg.pose.pose.position.x = 0.0
+        msg.pose.pose.position.y = 0.0
+        msg.pose.pose.orientation.z = 0.0 
+        msg.pose.pose.orientation.w = 1.0
+        self.publisher_.publish(msg)
+        self.get_logger().info('Publicando')
+        time.sleep(1)
+        self.__charged_initial_pose = True
+
 
 
     def __send_goal(self, pose):

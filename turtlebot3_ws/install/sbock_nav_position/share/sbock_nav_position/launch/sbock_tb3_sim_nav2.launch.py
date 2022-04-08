@@ -81,7 +81,7 @@ def generate_launch_description():
 
     declare_map_yaml_cmd = DeclareLaunchArgument(
         'map',
-        default_value=os.path.join(project_dir, 'config', 'mapa_real.yaml'),
+        default_value=os.path.join(project_dir, 'config', 'my_map.yaml'),
         description='Full path to map file to load')
 
     declare_use_sim_time_cmd = DeclareLaunchArgument(
@@ -130,7 +130,7 @@ def generate_launch_description():
 
     declare_world_cmd = DeclareLaunchArgument(
         'world',
-        default_value= os.path.join(get_package_share_directory('my_world'),'world/burger.model'),
+        default_value= os.path.join(get_package_share_directory('sbock_my_world'),'world/burger.model'),
         description='Full path to world model file to load')
 
     # Specify the actions
