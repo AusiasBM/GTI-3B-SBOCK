@@ -20,6 +20,7 @@ class Nav_To_Pose(Node):
         self.__action_client: Acción de NavigateToPose
     '''
     
+    #Politicas de confiabilidad de los mensajes
     qos_profile = QoSProfile(depth = 10)
     qos_profile.reliability = QoSReliabilityPolicy.RELIABLE # RELIABLE o BEST_EFFORT
     qos_profile.durability = QoSDurabilityPolicy.VOLATILE # VOLATILE o TRANSIENT_LOCAL
