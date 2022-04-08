@@ -1,4 +1,0 @@
-[console_scripts]
-initialPose = sbock_my_nav2_system.initialPose:main
-nav_to_pose = sbock_my_nav2_system.nav_to_pose:main
-

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock
+CMAKE_SOURCE_DIR = /home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock
+CMAKE_BINARY_DIR = /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

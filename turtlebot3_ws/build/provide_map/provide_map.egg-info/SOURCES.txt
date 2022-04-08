@@ -10,6 +10,8 @@ setup.py
 ../../../build/provide_map/provide_map.egg-info/top_level.txt
 ../../../build/provide_map/provide_map.egg-info/zip-safe
 launch/provide_map.launch.py
+map/mapa_supermercado_real.pgm
+map/mapa_supermercado_real.yaml
 map/my_map.pgm
 map/my_map.yaml
 provide_map/__init__.py

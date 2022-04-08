@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock
+CMAKE_SOURCE_DIR = /home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock
+CMAKE_BINARY_DIR = /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock
 
 # Utility rule file for sbock_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock
 include CMakeFiles/sbock_uninstall.dir/progress.make
 
 CMakeFiles/sbock_uninstall:
-	/usr/bin/cmake -P /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 sbock_uninstall: CMakeFiles/sbock_uninstall
 sbock_uninstall: CMakeFiles/sbock_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/sbock_uninstall.dir/clean:
 .PHONY : CMakeFiles/sbock_uninstall.dir/clean
 
 CMakeFiles/sbock_uninstall.dir/depend:
-	cd /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles/sbock_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock /home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles/sbock_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sbock_uninstall.dir/depend
 

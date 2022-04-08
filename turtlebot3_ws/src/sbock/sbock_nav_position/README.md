@@ -25,14 +25,22 @@ Arrancar navegación:
 
 Terminal 1:
 ros2 launch sbock_nav_position sbock_tb3_sim_nav2.launch.py 
+-si da error:
+ cd GTI-3B-SBOCK/turtlebot3_ws
+ source install/setup.bash
 
 Terminal2:
 ros2 launch sbock_nav_position sbock_nav_to_pose.launch.py 
+-si da error:
+ cd GTI-3B-SBOCK/turtlebot3_ws
+ source install/setup.bash
 
 Terminal 3:
 ros2 launch sbock_position_publisher go_to_pose1.launch.py
 ros2 launch sbock_position_publisher go_to_pose2.launch.py
 ros2 launch sbock_position_publisher go_to_pose3.launch.py
-
+-si da error:
+ cd GTI-3B-SBOCK/turtlebot3_ws
+ source install/setup.bash
 
 
