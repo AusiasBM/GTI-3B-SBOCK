@@ -16,9 +16,10 @@
     <exec_depend>sbock_nav_route</exec_depend>
     <exec_depend>sbock_robot_position_subscriber</exec_depend>
     <exec_depend>provide_map</exec_depend>
-    <exec_depend>my_world</exec_depend>
+    <exec_depend>sbock_my_world</exec_depend>
     <exec_depend>sbock_nav_position</exec_depend>
     <exec_depend>sbock_position_publisher</exec_depend>
+    <exec_depend>sbock_custom_interface</exec_depend>
 
     <export>
     <build_type>ament_cmake</build_type>
