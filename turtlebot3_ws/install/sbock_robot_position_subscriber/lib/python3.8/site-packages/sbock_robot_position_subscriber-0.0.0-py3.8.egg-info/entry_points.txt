@@ -1,4 +1,0 @@
-[console_scripts]
-map_pos_subscriber = sbock_robot_position_subscriber.map_pos_subscriber:main
-odom_pos_subscriber = sbock_robot_position_subscriber.odom_pos_subscriber:main
-

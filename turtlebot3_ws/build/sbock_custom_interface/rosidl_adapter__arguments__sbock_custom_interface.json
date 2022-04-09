@@ -1,7 +1,0 @@
-{
-  "package_name": "sbock_custom_interface",
-  "non_idl_tuples": [
-    "/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_custom_interface:msg/Distvel.msg",
-    "/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_custom_interface:srv/MyMoveMsg.srv"
-  ]
-}
