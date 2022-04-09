@@ -33,10 +33,12 @@ class Nav_To_Pose(Node):
 
         self.__goal_handle = None
         self.__action_client = None
-        self.__charged_initial_pose = False
         
+        '''
         self.publisher_ = self.create_publisher(PoseWithCovarianceStamped, 'initialpose', self.qos_profile)
-        self.__callback_initial_pose()
+        timer_period = 1  # seconds
+        self.i = 0.0
+        self.timer_ = self.create_timer(timer_period, self.__callback_initial_pose)'''
 
         #Creamos el objeto suscriptor que recibira un mensaje de tipo Pose con la posicion de destino:
         #nodo
@@ -66,21 +68,7 @@ class Nav_To_Pose(Node):
         self.__send_goal(pose)
     
 
-
-    def __callback_initial_pose(self):
-        msg = PoseWithCovarianceStamped()
-        msg.header.frame_id = 'map'
-        msg.pose.pose.position.x = 0.0
-        msg.pose.pose.position.y = 0.0
-        msg.pose.pose.orientation.z = 0.0 
-        msg.pose.pose.orientation.w = 1.0
-        self.publisher_.publish(msg)
-        self.get_logger().info('Publicando')
-        time.sleep(1)
-        self.__charged_initial_pose = True
-
-
-
+        
     def __send_goal(self, pose):
         '''
         Metodo que lanza el objetivo que debe alcanzar
