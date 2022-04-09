@@ -1,3 +1,0 @@
-[console_scripts]
-nav_to_pose = sbock_nav_position.nav_to_pose:main
-
