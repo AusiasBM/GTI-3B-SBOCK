@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    /* Sirve para que haga el scroll suave*/
+    scroll-behavior: smooth;
+}
+
+.container-fluid{
+    height: 100vh;
+}
+
+h1{
+    color: rgb(130, 0, 83);
+    font-size: 80px;
+    font-weight: 700;
+}
+
+h3{
+    color: rgb(130, 0, 83);
+    font-size: 40px;
+    font-weight: 200;
+}
+
+h4{
+    color: rgb(130, 0, 83);
+    font-size: 18px;
+    font-weight: 700; 
+}
+
+p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h5{
+    color: red;
+    font-weight: 700;
+}
+
+
+/* Los estilos del botón los hemos puesto mediante bootstrap, aquí solo ponemos el tamaño */
+.btn{
+    width: 300px;
+    height: 60px;
+}
+
+#manual {
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 600px;
+}
+
+#btn_up:active, #btn_left:active, #btn_right:active, #btn_down:active{
+    background-color: deepskyblue;
+    border-radius: 90px;
+}
