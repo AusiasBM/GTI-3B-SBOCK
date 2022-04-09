@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_my_world
+CMAKE_SOURCE_DIR = /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_my_world
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world
+CMAKE_BINARY_DIR = /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_my_world /home/pere/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_my_world /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world /home/pere/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_my_world /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_my_world /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

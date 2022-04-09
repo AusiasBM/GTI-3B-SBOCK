@@ -1,6 +1,4 @@
-/turtlebot3_ws/build/
-
-/turtlebot3_ws/install/
-
-/turtlebot3_ws/log/
+build/
+install/
+log/
 

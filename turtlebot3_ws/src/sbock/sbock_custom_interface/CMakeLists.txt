@@ -38,6 +38,8 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME} 
   "msg/Distvel.msg" 
   "srv/MyMoveMsg.srv"
+  "srv/IniPose.srv"
+  "srv/NavToPose.srv"
 )
 
 ament_package()
