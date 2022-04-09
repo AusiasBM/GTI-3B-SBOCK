@@ -1,5 +1,0 @@
-[console_scripts]
-position1_publisher = sbock_position_publisher.go_to_pose1:main
-position2_publisher = sbock_position_publisher.go_to_pose2:main
-position3_publisher = sbock_position_publisher.go_to_pose3:main
-

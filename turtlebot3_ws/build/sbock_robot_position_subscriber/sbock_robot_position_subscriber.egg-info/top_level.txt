@@ -1,1 +1,0 @@
-sbock_robot_position_subscriber

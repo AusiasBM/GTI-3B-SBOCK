@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 build/
 install/
 log/
+=======
+turtlebot3_ws/build/
+turtlebot3_ws/install/
+turtlebot3_ws/log/
+>>>>>>> develop
 
