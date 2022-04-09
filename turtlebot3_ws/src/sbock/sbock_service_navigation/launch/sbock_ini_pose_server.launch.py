@@ -3,8 +3,11 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
+
         Node(
-            package='sbock_nav_route',
-            executable='route',
-            output='screen'),
+            package='sbock_service_navigation',
+            executable='initial_pose',
+            output='screen'
+        ),
+        
     ])

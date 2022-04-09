@@ -4,9 +4,7 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import PoseWithCovarianceStamped
 from custom_interface.srv import IniPose
-from rclpy.qos import QoSDurabilityPolicy, QoSHistoryPolicy, QoSReliabilityPolicy, QoSLivelinessPolicy
-from rclpy.qos import QoSProfile
-from rclpy.duration import Duration
+
 
 class Service_ini_pos(Node):
     '''
@@ -28,23 +26,24 @@ class Service_ini_pos(Node):
 
 
     def cb_publicar_posicion_inicial(self, request, response):
-        '''
-        Publica la posicion inicial del robot a través de un objeto de tipo PoseWithCovarianceStamped()
-        '''
-        self.get_logger().info('Callback de Initial_pose')
+        timer_period = 1  # seconds
+        self.i = 0.0
+        self.timer_ = self.create_timer(timer_period, self.callback_ini_pose)
+        
+        response.success = True
+        return response
 
+   
+    def callback_ini_pose(self):
         msg = PoseWithCovarianceStamped()
         msg.header.frame_id = 'map'
         msg.pose.pose.position.x = 0.0
         msg.pose.pose.position.y = 0.0
-        msg.pose.pose.orientation.z = 0.0 
         msg.pose.pose.orientation.w = 1.0
         
+        self.get_logger().info('Publishing  Initial Position  \n X= 0.0 \n Y= 0.0 \n W = 1.0 ')
         self.publisher_.publish(msg)
-        self.get_logger().info('Publicando')
-        
-        response.success = True
-        return response
+
 
 def main(args=None):
     # inicializa la comunicacion ROS2

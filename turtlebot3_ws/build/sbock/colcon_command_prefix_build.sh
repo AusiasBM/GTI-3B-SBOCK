@@ -7,4 +7,6 @@
 . "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/sbock_nav_route/package.sh"
 . "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_position_publisher/share/sbock_position_publisher/package.sh"
 . "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/share/sbock_robot_position_subscriber/package.sh"
+. "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_service_navigation/share/sbock_service_navigation/package.sh"
+. "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_service_remote_control/share/sbock_service_remote_control/package.sh"
 . "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_show_msg/share/sbock_show_msg/package.sh"

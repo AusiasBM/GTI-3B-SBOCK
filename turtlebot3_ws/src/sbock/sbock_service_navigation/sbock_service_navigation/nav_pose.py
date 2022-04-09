@@ -31,26 +31,7 @@ class Service_Nav_To_Pose(Node):
 
         self.srv = self.create_service(NavToPose, 'nav_pose', self.goalPoseCallback)
         
-        self.publisher_ = self.create_publisher(PoseWithCovarianceStamped, 'initialpose', 10)
-        self.cb_publicar_posicion_inicial()
-        
-
-
-    def cb_publicar_posicion_inicial(self):
-        '''
-        Publica la posicion inicial del robot a través de un objeto de tipo PoseWithCovarianceStamped()
-        '''
-        self.get_logger().info('Callback de Initial_pose')
-
-        msg = PoseWithCovarianceStamped()
-        msg.header.frame_id = 'map'
-        msg.pose.pose.position.x = 0.0
-        msg.pose.pose.position.y = 0.0
-        msg.pose.pose.orientation.z = 0.0 
-        msg.pose.pose.orientation.w = 1.0
-        
-        self.publisher_.publish(msg)
-        self.get_logger().info('Publicando')
+      
                                                        
 
 
@@ -61,6 +42,8 @@ class Service_Nav_To_Pose(Node):
         '''
         #Creamos un cliente de la accion NavigateToPose
         self.__action_client = ActionClient(self, NavigateToPose, 'navigate_to_pose')
+        
+        self.get_logger().info('Callback de goalPose')
 
         #Creamos objeto de tipo PoseStamped y pasamos a la variable .pose el mensaje que contiene la posicion de destino
         pose = PoseStamped()

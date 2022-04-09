@@ -4,7 +4,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='sbock_nav_route',
+            package='sbock_nav_position',
             executable='route',
             output='screen'),
     ])

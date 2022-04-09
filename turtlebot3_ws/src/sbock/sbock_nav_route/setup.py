@@ -29,7 +29,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        	'route = sbock_nav_route.prova:main',
+        	'route = sbock_nav_route.waypoints_follower:main',
         ],
     },
 )

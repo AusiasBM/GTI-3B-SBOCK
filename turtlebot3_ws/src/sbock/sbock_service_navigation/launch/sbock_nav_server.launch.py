@@ -8,9 +8,6 @@ def generate_launch_description():
             executable='nav_pose',
             output='screen'
         ),
-        '''Node(
-            package='sbock_service_navigation',
-            executable='initial_pose',
-            output='screen'
-        ),'''
+
+        
     ])
