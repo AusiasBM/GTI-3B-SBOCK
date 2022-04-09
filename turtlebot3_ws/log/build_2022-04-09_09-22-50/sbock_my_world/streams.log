@@ -1,0 +1,149 @@
+[0.265s] Invoking command in '/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ausiasbm/turtlebot3_ws/install/show_msg:/home/ausiasbm/turtlebot3_ws/install/provide_map:/home/ausiasbm/turtlebot3_ws/install/my_slam:/home/ausiasbm/turtlebot3_ws/install/my_nav2_system:/home/ausiasbm/turtlebot3_ws/install/my_first_subscriber:/home/ausiasbm/turtlebot3_ws/install/my_first_service:/home/ausiasbm/turtlebot3_ws/install/my_first_publisher:/home/ausiasbm/turtlebot3_ws/install/ausias_bm_ex_my_nav2_system:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_show_msg:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_position_publisher:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_first_service:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/opt/ros/foxy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_my_world -DCMAKE_INSTALL_PREFIX=/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world
+[0.305s] -- The C compiler identification is GNU 9.4.0
+[0.342s] -- The CXX compiler identification is GNU 9.4.0
+[0.346s] -- Check for working C compiler: /usr/bin/cc
+[0.402s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.403s] -- Detecting C compiler ABI info
+[0.467s] -- Detecting C compiler ABI info - done
+[0.467s] -- Detecting C compile features
+[0.467s] -- Detecting C compile features - done
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++
+[0.580s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.580s] -- Detecting CXX compiler ABI info
+[0.696s] -- Detecting CXX compiler ABI info - done
+[0.704s] -- Detecting CXX compile features
+[0.704s] -- Detecting CXX compile features - done
+[0.706s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.731s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.731s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.863s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.876s] -- Checking for module 'bullet>=2.82'
+[0.885s] --   Found bullet, version 2.88
+[0.998s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.054s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.109s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.132s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.483s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.517s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.525s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.529s] -- Searching for dependencies of ignition-math6
+[1.529s] -- Looking for OGRE...
+[1.530s] -- OGRE_PREFIX_WATCH changed.
+[1.542s] -- Checking for module 'OGRE'
+[1.553s] --   Found OGRE, version 1.9.0
+[1.590s] -- Found Ogre Ghadamon (1.9.0)
+[1.598s] -- Found OGRE: optimized;/usr/lib/aarch64-linux-gnu/libOgreMain.so;debug;/usr/lib/aarch64-linux-gnu/libOgreMain.so
+[1.606s] -- Looking for OGRE_Paging...
+[1.621s] -- Found OGRE_Paging: optimized;/usr/lib/aarch64-linux-gnu/libOgrePaging.so;debug;/usr/lib/aarch64-linux-gnu/libOgrePaging.so
+[1.621s] -- Looking for OGRE_Terrain...
+[1.628s] -- Found OGRE_Terrain: optimized;/usr/lib/aarch64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/aarch64-linux-gnu/libOgreTerrain.so
+[1.628s] -- Looking for OGRE_Property...
+[1.640s] -- Found OGRE_Property: optimized;/usr/lib/aarch64-linux-gnu/libOgreProperty.so;debug;/usr/lib/aarch64-linux-gnu/libOgreProperty.so
+[1.640s] -- Looking for OGRE_RTShaderSystem...
+[1.646s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/aarch64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/aarch64-linux-gnu/libOgreRTShaderSystem.so
+[1.647s] -- Looking for OGRE_Volume...
+[1.653s] -- Found OGRE_Volume: optimized;/usr/lib/aarch64-linux-gnu/libOgreVolume.so;debug;/usr/lib/aarch64-linux-gnu/libOgreVolume.so
+[1.654s] -- Looking for OGRE_Overlay...
+[1.661s] -- Found OGRE_Overlay: optimized;/usr/lib/aarch64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/aarch64-linux-gnu/libOgreOverlay.so
+[1.805s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.807s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.807s] -- Searching for dependencies of ignition-transport8
+[1.823s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.833s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.837s] -- Checking for module 'libzmq >= 4'
+[1.848s] --   Found libzmq , version 4.3.2
+[1.879s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.886s] -- Checking for module 'uuid'
+[1.905s] --   Found uuid, version 2.34.0
+[1.962s] -- Found UUID: TRUE  
+[1.965s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.965s] -- Searching for dependencies of ignition-msgs5
+[1.995s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.012s] -- Checking for module 'tinyxml2'
+[2.053s] --   Found tinyxml2, version 6.2.0
+[2.157s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.159s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.160s] -- Searching for dependencies of ignition-common3
+[2.160s] -- Looking for dlfcn.h - found
+[2.161s] -- Looking for libdl - found
+[2.162s] -- Found DL: TRUE  
+[2.175s] -- Searching for <ignition-common3> component [graphics]
+[2.178s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.178s] -- Searching for dependencies of ignition-common3-graphics
+[2.178s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.181s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.182s] -- Searching for dependencies of ignition-fuel_tools4
+[2.418s] -- Found CURL: /usr/lib/aarch64-linux-gnu/libcurl.so (found version "7.68.0")  
+[2.426s] -- Checking for module 'jsoncpp'
+[2.443s] --   Found jsoncpp, version 1.7.4
+[2.577s] -- Found JSONCPP: TRUE  
+[2.602s] -- Checking for module 'libzip'
+[2.654s] --   Found libzip, version 1.5.1
+[2.781s] -- Found ZIP: TRUE  
+[2.782s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.782s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.782s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.785s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[2.787s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.817s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.825s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.936s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.959s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.028s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.095s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.153s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.192s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.194s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.195s] -- Found Threads: TRUE  
+[3.307s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.364s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[3.373s] -- Found turtlebot3_gazebo: 2.2.3 (/home/ausiasbm/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake)
+[3.455s] -- Configuring done
+[3.461s] -- Generating done
+[3.463s] -- Build files have been written to: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world
+[3.470s] Invoked command in '/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ausiasbm/turtlebot3_ws/install/show_msg:/home/ausiasbm/turtlebot3_ws/install/provide_map:/home/ausiasbm/turtlebot3_ws/install/my_slam:/home/ausiasbm/turtlebot3_ws/install/my_nav2_system:/home/ausiasbm/turtlebot3_ws/install/my_first_subscriber:/home/ausiasbm/turtlebot3_ws/install/my_first_service:/home/ausiasbm/turtlebot3_ws/install/my_first_publisher:/home/ausiasbm/turtlebot3_ws/install/ausias_bm_ex_my_nav2_system:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_show_msg:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_position_publisher:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_first_service:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/opt/ros/foxy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_my_world -DCMAKE_INSTALL_PREFIX=/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world
+[3.472s] Invoking command in '/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ausiasbm/turtlebot3_ws/install/show_msg:/home/ausiasbm/turtlebot3_ws/install/provide_map:/home/ausiasbm/turtlebot3_ws/install/my_slam:/home/ausiasbm/turtlebot3_ws/install/my_nav2_system:/home/ausiasbm/turtlebot3_ws/install/my_first_subscriber:/home/ausiasbm/turtlebot3_ws/install/my_first_service:/home/ausiasbm/turtlebot3_ws/install/my_first_publisher:/home/ausiasbm/turtlebot3_ws/install/ausias_bm_ex_my_nav2_system:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_show_msg:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_position_publisher:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_first_service:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/opt/ros/foxy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world -- -j5 -l5
+[3.525s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[3.573s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[8.471s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[8.865s] [100%] Built target turtlebot3_drive
+[8.888s] Invoked command in '/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ausiasbm/turtlebot3_ws/install/show_msg:/home/ausiasbm/turtlebot3_ws/install/provide_map:/home/ausiasbm/turtlebot3_ws/install/my_slam:/home/ausiasbm/turtlebot3_ws/install/my_nav2_system:/home/ausiasbm/turtlebot3_ws/install/my_first_subscriber:/home/ausiasbm/turtlebot3_ws/install/my_first_service:/home/ausiasbm/turtlebot3_ws/install/my_first_publisher:/home/ausiasbm/turtlebot3_ws/install/ausias_bm_ex_my_nav2_system:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_show_msg:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_position_publisher:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_first_service:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/opt/ros/foxy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world -- -j5 -l5
+[9.126s] Invoking command in '/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ausiasbm/turtlebot3_ws/install/show_msg:/home/ausiasbm/turtlebot3_ws/install/provide_map:/home/ausiasbm/turtlebot3_ws/install/my_slam:/home/ausiasbm/turtlebot3_ws/install/my_nav2_system:/home/ausiasbm/turtlebot3_ws/install/my_first_subscriber:/home/ausiasbm/turtlebot3_ws/install/my_first_service:/home/ausiasbm/turtlebot3_ws/install/my_first_publisher:/home/ausiasbm/turtlebot3_ws/install/ausias_bm_ex_my_nav2_system:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_show_msg:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_position_publisher:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_first_service:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/opt/ros/foxy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world
+[9.144s] -- Install configuration: ""
+[9.144s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/lib/sbock_my_world/turtlebot3_drive
+[9.148s] -- Set runtime path of "/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/lib/sbock_my_world/turtlebot3_drive" to ""
+[9.148s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//launch
+[9.148s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//launch/turtlebot3_my_world.launch.py
+[9.148s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//models
+[9.148s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//models/sbock_my_world
+[9.148s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//models/sbock_my_world/model.config
+[9.148s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//models/sbock_my_world/model.sdf
+[9.148s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//models/turtlebot3_burger
+[9.148s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//models/turtlebot3_burger/model.config
+[9.148s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//models/turtlebot3_burger/model.sdf
+[9.149s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//models/turtlebot3_burger/meshes
+[9.149s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//models/turtlebot3_burger/meshes/burger_base.dae
+[9.149s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//models/turtlebot3_burger/meshes/lds.dae
+[9.149s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//models/turtlebot3_burger/meshes/tire.dae
+[9.149s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//models/turtlebot3_burger/model-1_4.sdf
+[9.149s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//world
+[9.149s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world//world/burger.model
+[9.149s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/include/
+[9.149s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/ament_index/resource_index/package_run_dependencies/sbock_my_world
+[9.150s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/ament_index/resource_index/parent_prefix_path/sbock_my_world
+[9.150s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/environment/ament_prefix_path.sh
+[9.150s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/environment/ament_prefix_path.dsv
+[9.150s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/environment/path.sh
+[9.150s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/environment/path.dsv
+[9.150s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/local_setup.bash
+[9.150s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/local_setup.sh
+[9.150s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/local_setup.zsh
+[9.151s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/local_setup.dsv
+[9.151s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/package.dsv
+[9.151s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/ament_index/resource_index/packages/sbock_my_world
+[9.151s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.151s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.152s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/cmake/sbock_my_worldConfig.cmake
+[9.152s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/cmake/sbock_my_worldConfig-version.cmake
+[9.152s] -- Installing: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/package.xml
+[9.162s] Invoked command in '/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ausiasbm/turtlebot3_ws/install/show_msg:/home/ausiasbm/turtlebot3_ws/install/provide_map:/home/ausiasbm/turtlebot3_ws/install/my_slam:/home/ausiasbm/turtlebot3_ws/install/my_nav2_system:/home/ausiasbm/turtlebot3_ws/install/my_first_subscriber:/home/ausiasbm/turtlebot3_ws/install/my_first_service:/home/ausiasbm/turtlebot3_ws/install/my_first_publisher:/home/ausiasbm/turtlebot3_ws/install/ausias_bm_ex_my_nav2_system:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_show_msg:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_position_publisher:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_first_service:/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map:/opt/ros/foxy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_my_world

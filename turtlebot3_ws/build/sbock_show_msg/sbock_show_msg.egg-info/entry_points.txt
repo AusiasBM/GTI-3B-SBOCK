@@ -1,0 +1,3 @@
+[console_scripts]
+show_msg = sbock_show_msg.show_msg:main
+

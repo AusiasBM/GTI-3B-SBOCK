@@ -1,0 +1,4 @@
+[console_scripts]
+movement_client = sbock_my_first_service.movement_client:main
+movement_server = sbock_my_first_service.movement_server:main
+

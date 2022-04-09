@@ -1,0 +1,43 @@
+[0.658s] Invoking command in '/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_robot_position_subscriber': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sbock_robot_position_subscriber build --build-base /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_robot_position_subscriber/build install --prefix /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber --record /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_robot_position_subscriber/install.log --single-version-externally-managed
+[0.803s] running egg_info
+[0.803s] creating ../../../build/sbock_robot_position_subscriber/sbock_robot_position_subscriber.egg-info
+[0.803s] writing ../../../build/sbock_robot_position_subscriber/sbock_robot_position_subscriber.egg-info/PKG-INFO
+[0.804s] writing dependency_links to ../../../build/sbock_robot_position_subscriber/sbock_robot_position_subscriber.egg-info/dependency_links.txt
+[0.804s] writing entry points to ../../../build/sbock_robot_position_subscriber/sbock_robot_position_subscriber.egg-info/entry_points.txt
+[0.804s] writing requirements to ../../../build/sbock_robot_position_subscriber/sbock_robot_position_subscriber.egg-info/requires.txt
+[0.804s] writing top-level names to ../../../build/sbock_robot_position_subscriber/sbock_robot_position_subscriber.egg-info/top_level.txt
+[0.804s] writing manifest file '../../../build/sbock_robot_position_subscriber/sbock_robot_position_subscriber.egg-info/SOURCES.txt'
+[0.822s] reading manifest file '../../../build/sbock_robot_position_subscriber/sbock_robot_position_subscriber.egg-info/SOURCES.txt'
+[0.823s] writing manifest file '../../../build/sbock_robot_position_subscriber/sbock_robot_position_subscriber.egg-info/SOURCES.txt'
+[0.823s] running build
+[0.823s] running build_py
+[0.823s] creating /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_robot_position_subscriber/build
+[0.823s] creating /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_robot_position_subscriber/build/lib
+[0.823s] creating /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_robot_position_subscriber/build/lib/sbock_robot_position_subscriber
+[0.824s] copying sbock_robot_position_subscriber/odom_pos_subscriber.py -> /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_robot_position_subscriber/build/lib/sbock_robot_position_subscriber
+[0.824s] copying sbock_robot_position_subscriber/__init__.py -> /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_robot_position_subscriber/build/lib/sbock_robot_position_subscriber
+[0.824s] copying sbock_robot_position_subscriber/map_pos_subscriber.py -> /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_robot_position_subscriber/build/lib/sbock_robot_position_subscriber
+[0.824s] running install
+[0.825s] running install_lib
+[0.826s] creating /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/lib/python3.8/site-packages/sbock_robot_position_subscriber
+[0.826s] copying /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_robot_position_subscriber/build/lib/sbock_robot_position_subscriber/odom_pos_subscriber.py -> /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/lib/python3.8/site-packages/sbock_robot_position_subscriber
+[0.826s] copying /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_robot_position_subscriber/build/lib/sbock_robot_position_subscriber/__init__.py -> /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/lib/python3.8/site-packages/sbock_robot_position_subscriber
+[0.826s] copying /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_robot_position_subscriber/build/lib/sbock_robot_position_subscriber/map_pos_subscriber.py -> /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/lib/python3.8/site-packages/sbock_robot_position_subscriber
+[0.826s] byte-compiling /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/lib/python3.8/site-packages/sbock_robot_position_subscriber/odom_pos_subscriber.py to odom_pos_subscriber.cpython-38.pyc
+[0.827s] byte-compiling /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/lib/python3.8/site-packages/sbock_robot_position_subscriber/__init__.py to __init__.cpython-38.pyc
+[0.827s] byte-compiling /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/lib/python3.8/site-packages/sbock_robot_position_subscriber/map_pos_subscriber.py to map_pos_subscriber.cpython-38.pyc
+[0.827s] running install_data
+[0.828s] creating /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/share/ament_index
+[0.828s] creating /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/share/ament_index/resource_index
+[0.828s] creating /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/share/ament_index/resource_index/packages
+[0.828s] copying resource/sbock_robot_position_subscriber -> /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/share/ament_index/resource_index/packages
+[0.828s] copying package.xml -> /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/share/sbock_robot_position_subscriber
+[0.828s] copying launch/robot_odom_pos.launch.py -> /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/share/sbock_robot_position_subscriber
+[0.828s] copying launch/robot_map_pos.launch.py -> /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/share/sbock_robot_position_subscriber
+[0.828s] running install_egg_info
+[0.829s] Copying ../../../build/sbock_robot_position_subscriber/sbock_robot_position_subscriber.egg-info to /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/lib/python3.8/site-packages/sbock_robot_position_subscriber-0.0.0-py3.8.egg-info
+[0.830s] running install_scripts
+[0.844s] Installing map_pos_subscriber script to /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/lib/sbock_robot_position_subscriber
+[0.844s] Installing odom_pos_subscriber script to /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/lib/sbock_robot_position_subscriber
+[0.844s] writing list of installed files to '/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_robot_position_subscriber/install.log'
+[1.009s] Invoked command in '/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/sbock/sbock_robot_position_subscriber' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/sbock_robot_position_subscriber build --build-base /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_robot_position_subscriber/build install --prefix /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber --record /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock_robot_position_subscriber/install.log --single-version-externally-managed
