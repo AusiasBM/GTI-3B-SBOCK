@@ -8,8 +8,8 @@
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position/lib/python3.8/site-packages/sbock_nav_position/__pycache__/initial_pose.cpython-38.pyc
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position/share/ament_index/resource_index/packages/sbock_nav_position
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position/share/sbock_nav_position/package.xml
-/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position/share/sbock_nav_position/launch/prova.launch.py
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position/share/sbock_nav_position/launch/sbock_tb3_sim_nav2.launch.py
+/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position/share/sbock_nav_position/launch/sbock_waypoints.launch.py
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position/share/sbock_nav_position/launch/sbock_initial_pose.launch.py
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position/share/sbock_nav_position/launch/sbock_nav_to_pose.launch.py
 /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position/share/sbock_nav_position/config/mapa_supermercado_real.yaml

@@ -23,10 +23,10 @@ config/nav2_params2.yaml
 config/navigate_through_poses_w_replanning_and_recovery.xml
 config/navigate_w_replanning_and_recovery.xml
 config/project_params.yaml
-launch/prova.launch.py
 launch/sbock_initial_pose.launch.py
 launch/sbock_nav_to_pose.launch.py
 launch/sbock_tb3_sim_nav2.launch.py
+launch/sbock_waypoints.launch.py
 resource/sbock_nav_position
 sbock_nav_position/__init__.py
 sbock_nav_position/initial_pose.py
