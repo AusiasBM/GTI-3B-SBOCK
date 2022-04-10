@@ -1,11 +1,9 @@
 # generated from colcon_core/shell/template/command_prefix.sh.em
-. "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/provide_map/share/provide_map/package.sh"
 . "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_custom_interface/share/sbock_custom_interface/package.sh"
-. "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_first_service/share/sbock_my_first_service/package.sh"
 . "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_my_world/share/sbock_my_world/package.sh"
 . "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_position/share/sbock_nav_position/package.sh"
-. "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_nav_route/share/sbock_nav_route/package.sh"
 . "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_position_publisher/share/sbock_position_publisher/package.sh"
+. "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_provide_map/share/sbock_provide_map/package.sh"
 . "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_robot_position_subscriber/share/sbock_robot_position_subscriber/package.sh"
 . "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_service_navigation/share/sbock_service_navigation/package.sh"
 . "/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/install/sbock_service_remote_control/share/sbock_service_remote_control/package.sh"

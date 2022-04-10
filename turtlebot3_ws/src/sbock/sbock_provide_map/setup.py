@@ -2,7 +2,7 @@ from setuptools import setup
 import os #incluir
 from glob import glob #incluir
 
-package_name = 'provide_map'
+package_name = 'sbock_provide_map'
 
 setup(
     name=package_name,
