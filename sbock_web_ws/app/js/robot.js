@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', event => {
             console.log("Conexion con ROSBridge correcta")
             btn_conectar.style.display = 'none'
             btn_desconectar.style.display = 'inline'
+            iniPose()
         })
         data.ros.on("error", (error) => {
             console.log("Se ha producido algun error mientras se intentaba realizar la conexion")
@@ -73,14 +74,14 @@ document.addEventListener('DOMContentLoaded', event => {
             data.connected = false
             console.log("Conexion con ROSBridge cerrada")	  
             btn_conectar.style.display = 'inline'
-            btn_desconectar.style.display = 'none'  
-            panel_control.style.display = 'none'	 
+            btn_desconectar.style.display = 'none'   
         })
+
+
     }
 
     
     function disconnect(){
-        pause()
         data.ros.close()        
         data.connected = false
         console.log('Clic en botón de desconexión')
@@ -153,6 +154,36 @@ document.addEventListener('DOMContentLoaded', event => {
             pos_y: parseFloat(pos_y),
             orien_z: parseFloat(orien_z),
             orien_w: parseFloat(orien_w),
+        })
+    
+        service.callService(request, (result) => {
+            data.service_busy = false
+            data.service_response = JSON.stringify(result)
+        }, (error) => {
+            data.service_busy = false
+            console.error(error)
+        })	
+    }
+
+
+    //Función para iniciar la posición del robot
+    function iniPose(){
+        console.log("Clic en iniPose")
+        data.service_busy = true
+        data.service_response = ''	
+    
+      //definimos los datos del servicio
+        let service = new ROSLIB.Service({
+            ros: data.ros,
+            name: '/pose_ini',
+            serviceType: 'sbock_custom_interface/srv/IniPose'
+        })
+    
+        let request = new ROSLIB.ServiceRequest({
+            pos_x: 0.0,
+            pos_y: 0.0,
+            orien_z: 0.0,
+            orien_w: 0.7071,
         })
     
         service.callService(request, (result) => {
