@@ -82,7 +82,6 @@ document.addEventListener('DOMContentLoaded', event => {
 
     
     function disconnect(){
-        pause()
         data.ros.close()        
         data.connected = false
         console.log('Clic en botón de desconexión')
