@@ -91,7 +91,7 @@ def generate_launch_description():
     
     declare_params_file_cmd = DeclareLaunchArgument(
         'params_file',
-        default_value=os.path.join(project_dir, 'config', 'nav2_params.yaml'),
+        default_value=os.path.join(project_dir, 'config', 'project_params.yaml'),
         description='Full path to the ROS2 parameters file to use for all launched nodes')
 
     declare_bt_xml_cmd = DeclareLaunchArgument(
@@ -105,7 +105,7 @@ def generate_launch_description():
 
     declare_rviz_config_file_cmd = DeclareLaunchArgument(
         'rviz_config_file',
-        default_value=os.path.join(project_dir, 'config', 'nav2_default_view.rviz'),
+        default_value=os.path.join(project_dir, 'config', 'nav2_default_view_new.rviz'),
         description='Full path to the RVIZ config file to use')
 
     declare_use_simulator_cmd = DeclareLaunchArgument(
@@ -130,7 +130,7 @@ def generate_launch_description():
 
     declare_world_cmd = DeclareLaunchArgument(
         'world',
-        default_value= os.path.join(get_package_share_directory('my_world'),'world/burger.model'),
+        default_value= os.path.join(get_package_share_directory('sbock_my_world'),'world/burger.model'),
         description='Full path to world model file to load')
 
     # Specify the actions

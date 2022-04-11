@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo
+CMAKE_SOURCE_DIR = /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo
+CMAKE_BINARY_DIR = /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_gazebo/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node
+CMAKE_SOURCE_DIR = /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node
+CMAKE_BINARY_DIR = /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node
 
 # Include any dependencies generated for this target.
 include CMakeFiles/turtlebot3_fake_node.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/turtlebot3_fake_node.dir/progress.make
 include CMakeFiles/turtlebot3_fake_node.dir/flags.make
 
 CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o: CMakeFiles/turtlebot3_fake_node.dir/flags.make
-CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o: /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o -c /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp
+CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o: /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o -c /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp
 
 CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp > CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp > CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.i
 
 CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp -o CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp -o CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.s
 
 # Object files for target turtlebot3_fake_node
 turtlebot3_fake_node_OBJECTS = \
@@ -113,7 +113,7 @@ turtlebot3_fake_node: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cp
 turtlebot3_fake_node: /opt/ros/foxy/lib/librmw_implementation.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/librmw.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/librcl_logging_spdlog.so
-turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0
+turtlebot3_fake_node: /usr/lib/aarch64-linux-gnu/libspdlog.so.1.5.0
 turtlebot3_fake_node: /opt/ros/foxy/lib/librcl_yaml_param_parser.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/libyaml.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
@@ -128,7 +128,7 @@ turtlebot3_fake_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_i
 turtlebot3_fake_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/libtracetools.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
-turtlebot3_fake_node: /opt/ros/foxy/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+turtlebot3_fake_node: /opt/ros/foxy/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 turtlebot3_fake_node: /opt/ros/foxy/lib/libtf2_msgs__rosidl_generator_c.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
@@ -164,7 +164,7 @@ turtlebot3_fake_node: /opt/ros/foxy/lib/librosidl_runtime_c.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/librcpputils.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/librcutils.so
 turtlebot3_fake_node: CMakeFiles/turtlebot3_fake_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable turtlebot3_fake_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable turtlebot3_fake_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtlebot3_fake_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -177,6 +177,6 @@ CMakeFiles/turtlebot3_fake_node.dir/clean:
 .PHONY : CMakeFiles/turtlebot3_fake_node.dir/clean
 
 CMakeFiles/turtlebot3_fake_node.dir/depend:
-	cd /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node /home/aibes/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node/CMakeFiles/turtlebot3_fake_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node /home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/turtlebot3_fake_node/CMakeFiles/turtlebot3_fake_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/turtlebot3_fake_node.dir/depend
 

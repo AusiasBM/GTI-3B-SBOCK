@@ -5,6 +5,6 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='sbock_nav_position',
-            executable='initial_pose_pub',
+            executable='initial_pose',
             output='screen'),
     ])
