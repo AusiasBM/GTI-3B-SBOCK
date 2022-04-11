@@ -31,6 +31,8 @@ setup(
     entry_points={
         'console_scripts': [
             'nav_to_pose = sbock_nav_position.nav_to_pose:main',
+            'initial_pose = sbock_nav_position.initial_pose:main',
+            'route = sbock_nav_position.waypoints_follower:main',
 
         ],
     },

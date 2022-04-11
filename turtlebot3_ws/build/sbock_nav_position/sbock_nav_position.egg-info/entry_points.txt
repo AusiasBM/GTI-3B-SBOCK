@@ -1,0 +1,5 @@
+[console_scripts]
+initial_pose = sbock_nav_position.initial_pose:main
+nav_to_pose = sbock_nav_position.nav_to_pose:main
+route = sbock_nav_position.waypoints_follower:main
+
