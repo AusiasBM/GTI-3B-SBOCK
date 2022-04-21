@@ -1,0 +1,4 @@
+source;share/sbock_my_world/local_setup.bash
+source;share/sbock_my_world/local_setup.dsv
+source;share/sbock_my_world/local_setup.sh
+source;share/sbock_my_world/local_setup.zsh

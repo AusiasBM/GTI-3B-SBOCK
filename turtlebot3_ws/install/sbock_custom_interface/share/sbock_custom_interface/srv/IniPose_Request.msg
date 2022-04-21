@@ -1,0 +1,5 @@
+float64 pos_x #Posicion x inicial
+float64 pos_y #Posicion y inicial
+float64 orien_z #Orientacion quaternion eje z inicial
+float64 orien_w #Orientacion quaternion w inicial
+
