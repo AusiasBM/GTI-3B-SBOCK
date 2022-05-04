@@ -17,8 +17,8 @@ class RobotMapPosition(Node):
         # al topic /odom topic wcon una cola de 10 messages.
         # create_subscription(msg_type, topic, callback, qos_profile, callback_group, event_callbacks, raw)
         self.subscriber_pos_map = self.create_subscription(
-            PoseWithCovarianceStamped,
-            '/amcl_pose',
+            PoseStamped,
+            '/robot_pose',
             self.pose_stamped_callback,
             QoSProfile(depth=10, reliability=ReliabilityPolicy.BEST_EFFORT)
         )    

@@ -13,16 +13,19 @@ class Go_To_Pos3(Node):
         # que publicara en el topic /cmd_vel 
         # la cola del topic es de 10 mensajes
         self.goal_pose_publisher = self.create_publisher(Pose, 'pose', 10)
-        self.publish_pos()
-    
+        self.period = 1
+        self.timer = self.create_timer(self.period, self.publish_pos)
+
+
     def publish_pos(self):
         pose = Pose()
-        pose.position.x = -1.4
-        pose.position.y = 1.1
-        pose.orientation.w = 1.0
+        pose.position.x = -4.0
+        pose.position.y = 0.0
+        pose.orientation.w = 0.0
 
         self.goal_pose_publisher.publish(pose)
-        exit(0)
+        self.get_logger().info('Publishing: "%s"' % pose)
+        
     	
                    
 def main(args=None):
@@ -30,6 +33,10 @@ def main(args=None):
     rclpy.init(args=args)
     # declara el constructor del nodo 
     simple_publisher = Go_To_Pos3()
+    rclpy.spin(simple_publisher)
+    simple_publisher.destroy_node()
+    # se cierra la comunicacion ROS
+    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
