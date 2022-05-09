@@ -350,8 +350,8 @@ document.addEventListener('DOMContentLoaded', event => {
         let request = new ROSLIB.ServiceRequest({
             pos_x: 0.0,
             pos_y: 0.0,
-            orien_z: 0.0,
-            orien_w: 0.7071,
+            orien_z: 1.0,
+            orien_w: 0.0//0.7071,
         })
     
         service.callService(request, (result) => {

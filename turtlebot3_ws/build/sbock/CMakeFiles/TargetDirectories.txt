@@ -1,9 +1,0 @@
-/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles/install/strip.dir
-/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles/install/local.dir
-/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles/install.dir
-/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles/list_install_components.dir
-/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles/rebuild_cache.dir
-/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles/edit_cache.dir
-/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles/test.dir
-/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles/sbock_uninstall.dir
-/home/ausiasbm/GTI-3B-SBOCK/turtlebot3_ws/build/sbock/CMakeFiles/uninstall.dir

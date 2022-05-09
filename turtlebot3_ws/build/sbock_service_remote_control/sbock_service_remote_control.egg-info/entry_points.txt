@@ -1,3 +1,0 @@
-[console_scripts]
-movement_server = sbock_service_remote_control.movement_server:main
-

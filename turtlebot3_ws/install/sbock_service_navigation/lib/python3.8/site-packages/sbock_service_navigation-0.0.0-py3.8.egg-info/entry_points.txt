@@ -1,4 +1,0 @@
-[console_scripts]
-initial_pose = sbock_service_navigation.initial_pose_pub:main
-nav_pose = sbock_service_navigation.nav_pose:main
-
