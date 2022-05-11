@@ -1,7 +1,7 @@
 #nav_to_pose.py
 
 import sys
-from custom_interface.srv import NavToPose
+from sbock_custom_interface.srv import NavToPose
 import rclpy
 from rclpy.action import ActionClient
 from rclpy.node import Node

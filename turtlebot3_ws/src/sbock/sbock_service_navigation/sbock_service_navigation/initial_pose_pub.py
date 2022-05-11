@@ -3,7 +3,7 @@ import sys
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import PoseWithCovarianceStamped
-from custom_interface.srv import IniPose
+from sbock_custom_interface.srv import IniPose
 
 
 

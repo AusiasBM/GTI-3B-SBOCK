@@ -1,6 +1,6 @@
 # Importar mensajes
 from geometry_msgs.msg import Twist
-from custom_interface.srv import MyMoveMsg
+from sbock_custom_interface.srv import MyMoveMsg
 
 #importar  biblioteca Python ROS2
 import rclpy
