@@ -13,7 +13,7 @@ class Ros2OpenCVImageConverter(Node):
         super().__init__('Ros2OpenCVImageConverter')
         
         self.bridge_object = CvBridge()
-        self.image_sub = self.create_subscription(Image,'/camera/image_raw',self.camera_callback,QoSProfile(depth=10, reliability=ReliabilityPolicy.BEST_EFFORT))
+        self.image_sub = self.create_subscription(Image,'/image',self.camera_callback,QoSProfile(depth=10, reliability=ReliabilityPolicy.BEST_EFFORT))
         
     def camera_callback(self,data):
 
@@ -23,9 +23,12 @@ class Ros2OpenCVImageConverter(Node):
         except CvBridgeError as e:
             print(e)
 
-        cv2.imshow("Imagen capturada por el robot", cv_image)
-                
-        cv2.waitKey(1)    
+        cv2.imshow("Imagen capturada", cv_image)
+
+        cv2.imwrite('src/img/img.jpg', cv_image)
+        cv2.waitKey(0) #aprieta una tecla 
+        cv2.destroyAllWindows()
+
 
 def main(args=None):
 
