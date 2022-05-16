@@ -56,7 +56,7 @@ class Service(Node):
         elif request.move == "delante":
             # rellena el mensaje msg con la velocidad angular y lineal
             # necesaria para moverse hacia delante
-            msg.linear.x = 0.22
+            msg.linear.x = 0.15
             msg.angular.z = 0.0
             # publica el mensaje
             self.publisher.publish(msg)   
@@ -67,7 +67,7 @@ class Service(Node):
         elif request.move == "atras":
             # rellena el mensaje msg con la velocidad angular y lineal
             # necesaria para moverse hacia atras
-            msg.linear.x = -0.22
+            msg.linear.x = -0.15
             msg.angular.z = 0.0
             # publica el mensaje
             self.publisher.publish(msg)   
