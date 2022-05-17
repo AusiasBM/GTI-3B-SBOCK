@@ -15,6 +15,26 @@ document.addEventListener('DOMContentLoaded', event => {
     document.getElementById("btn_nav_auto").addEventListener("click", navPoseHandler)
     document.getElementById("btn_con").addEventListener("click", connect)
     document.getElementById("btn_dis").addEventListener("click", disconnect)
+    document.getElementById("ubiA").addEventListener("click", ubicacionA)
+    document.getElementById("ubiB").addEventListener("click", ubicacionB)
+    document.getElementById("ubiC").addEventListener("click", ubicacionC)
+    document.getElementById("ubiD").addEventListener("click", ubicacionD)
+
+    function ubicacionA(){
+        gotopose(0.0, 0.0, 0.0, 1.0)
+    }
+
+    function ubicacionB(){
+        gotopose(1.0, 1.0, 0.0, 1.0)
+    }
+
+    function ubicacionC(){
+        gotopose(0.0, 0.0, 0.0, 1.0)
+    }
+
+    function ubicacionD(){
+        gotopose(0.0, 0.0, 0.0, 1.0)
+    }
 
     let btnUp = document.getElementById('btn_up');
     btnUp.addEventListener('mousedown', upStartHandler, false);
@@ -41,7 +61,6 @@ document.addEventListener('DOMContentLoaded', event => {
     btnRight.addEventListener('touchend', endHandler, false);
 
 
-    
     var x = 0;
     var z = 0;
     var scale = 0;

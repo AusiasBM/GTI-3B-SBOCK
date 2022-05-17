@@ -90,25 +90,25 @@ h5{
      
 }
 
-.ubiA{
+#ubiA{
     position: relative;
     left: 54vw;
     top: 48vh;
 }
 
-.ubiB{
+#ubiB{
     position: relative;
     left: 54vw;
     top: 10vh;
 }
 
-.ubiC{
+#ubiC{
     position: relative;
     left: 43vw;
     top: 6.5vh;
 }
 
-.ubiD{
+#ubiD{
     position: relative;
     left: 33vw;
     top: 3vh;
