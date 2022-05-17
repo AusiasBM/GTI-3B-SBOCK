@@ -51,14 +51,8 @@ h5{
 }
 
 #manual {
-    position: relative;
-    left: 50vw;
-    top: 30vh;
-    background-color: aliceblue;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 }
 
 #btn_up:active, #btn_left:active, #btn_right:active, #btn_down:active{
@@ -73,6 +67,10 @@ h5{
     background-position: center;
     height: 60vh;
     width: 100vw;
+}
+
+#dashboard{
+    display: none;
 }
 
 .punto{

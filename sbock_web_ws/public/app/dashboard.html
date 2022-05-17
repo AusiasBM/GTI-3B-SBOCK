@@ -44,42 +44,54 @@
                     <div id="nivel"></div>
                 </div>
             </div>
-            
+
+            <button id="modalFlechas" style="display: none;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Mover con flechas
+            </button>
         </section>
 
 
-        <section class="row d-flex justify-content-center mt-5 ">
+        <section id="dashboard" style="display: none;" class="row d-flex justify-content-center mt-5 ">
             <div id="map">
                 <button role="button" id="ubiA" class="punto">A</button>
                 <button role="button" id="ubiB" class="punto">B</button>
                 <button role="button" id="ubiC" class="punto">C</button>
             </div>
             
-            <div id="manual" class="col-5 d-flex flex-column justify-content-center align-items-center">
-                <div class="col d-flex justify-content-center mt-5">
-                    <img height="100" id="btn_up" src="imgs/arrow.png"></img>
-                </div>
-                
-                <div class="col d-flex justify-content-center">
-                    <img height="100" id="btn_left"  src="imgs/arrow.png" style="transform:rotate(270deg);"></img>
-                    <div class="m-5"></div>
-                    <img height="100" id="btn_right" src="imgs/arrow.png" style="transform:rotate(90deg);"></img>
-                </div>
-                <div class="col d-flex justify-content-center mb-5">
-                    <img height="100" id="btn_down"  src="imgs/arrow.png" style="transform:rotate(180deg);"></img>
-                </div>
-                
-                <div class="row d-flex justify-content-center mb-5">
-                    <div class="d-flex row justify-content-center">
-                        <p class="col-3">X: <input type="number" id="pos_x" class="form-control d-inline-flex" name="posX" value="0.0"></p> 
-                        <p class="col-3">Y: <input type="number" id="pos_y" class="form-control d-inline-flex" name="posY" value="0.0"></p> 
-                      
-                        <p class="col-3">Z: <input type="number" id="orien_z" class="form-control d-inline-flex" name="oriZ" value="0.0"></p> 
-                        <p class="col-3">W: <input type="number" id="orien_w" class="form-control d-inline-flex" name="oriW" value="0.0"></p> 
+            <!-- Button trigger modal -->
+            
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Mover con flechas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <button class="btn-xl mt-2 btn btn-primary" id="btn_nav_auto">Navegar al punto</button>
+                    <div class="modal-body d-flex justify-content-center">
+                    
+                        <div id="manual" class="col-5 d-flex flex-column justify-content-center align-items-center">
+                            <div class="col d-flex justify-content-center mt-5">
+                                <img height="100" id="btn_up" src="imgs/arrow.png"></img>
+                            </div>
+                            
+                            <div class="col d-flex justify-content-center">
+                                <img height="100" id="btn_left"  src="imgs/arrow.png" style="transform:rotate(270deg);"></img>
+                                <div class="m-5"></div>
+                                <img height="100" id="btn_right" src="imgs/arrow.png" style="transform:rotate(90deg);"></img>
+                            </div>
+                            <div class="col d-flex justify-content-center mb-5">
+                                <img height="100" id="btn_down"  src="imgs/arrow.png" style="transform:rotate(180deg);"></img>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
                 </div>
             </div>
+
+            
             
         </section>
 
