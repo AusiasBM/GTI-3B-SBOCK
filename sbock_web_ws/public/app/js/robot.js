@@ -93,6 +93,8 @@ document.addEventListener('DOMContentLoaded', event => {
             //cargarMapa()
             iniPose()
             displayBattery()
+            displayPoseMarker()
+            document.getElementById("bateriaCompleto").style.display = "block";
         })
         data.ros.on("error", (error) => {
             console.log("Se ha producido algun error mientras se intentaba realizar la conexion")
@@ -176,6 +178,7 @@ document.addEventListener('DOMContentLoaded', event => {
 
     function displayPoseMarker() {
         // Create a marker representing the robot.
+        /*
         var robotMarker = new ROS2D.NavigationArrow({
             size : 6,
             strokeSize : 0.5,
@@ -188,7 +191,7 @@ document.addEventListener('DOMContentLoaded', event => {
 // Add the marker to the 2D scene.
         data.gridClient.rootObject.addChild(robotMarker);
         var initScaleSet = false;
-
+*/
 // Subscribe to the robot's pose updates.
         var poseListener = new ROSLIB.Topic({
             ros : data.ros,
@@ -201,7 +204,8 @@ document.addEventListener('DOMContentLoaded', event => {
 
 // Orientate the marker based on the robot's pose.
             console.log('Got Pose data:', msg.pose.pose.position.x, msg.pose.pose.position.y );  
-            robotMarker.x = msg.pose.pose.position.x;
+            console.log('Got Pose orientation:', msg.pose.pose.orientation );  
+            /*robotMarker.x = msg.pose.pose.position.x;
             robotMarker.y = -msg.pose.pose.position.y;
             console.log('Pose updated: ', robotMarker.x);
             if (!initScaleSet) {
@@ -210,7 +214,7 @@ document.addEventListener('DOMContentLoaded', event => {
             initScaleSet = true;
             }
             robotMarker.rotation = data.viewer.scene.rosQuaternionToGlobalTheta(msg.pose.pose.orientation);
-            robotMarker.visible = true;
+            robotMarker.visible = true;*/
         });
     } // end display pose marker
 
@@ -395,8 +399,9 @@ document.addEventListener('DOMContentLoaded', event => {
         poseListener.subscribe(function(msg) {
 
 // Orientate the marker based on the robot's pose.
-            //console.log('Got battery data:', msg.percentage ); 
-            document.getElementById('nivel').style.width = msg.percentage;
+            //console.log('Got battery data:', msg.percentage );
+            valor =  msg.percentage + 'px';
+            document.getElementById("nivel").style.width = valor;
             
         });
     } // end display pose marker
