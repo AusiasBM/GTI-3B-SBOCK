@@ -38,14 +38,23 @@
         <section class="row pt-3 d-flex justify-content-center">
             <button id="btn_con" role="button" class="btn btn-light shadow">Conectar</button>
             <button id="btn_dis" role="button" class="btn btn-light shadow">Desconectar</button>
-    
+            <div id="bateriaCompleto" style="display: none;">
+                <h4>Batería</h4>
+                <div id="bateria">
+                    <div id="nivel"></div>
+                </div>
+            </div>
+            
         </section>
 
 
-        <section class="row d-flex justify-content-center mt-5">
-            <div class="col" id="map">
-
+        <section class="row d-flex justify-content-center mt-5 ">
+            <div id="map">
+                <button role="button" id="ubiA" class="punto">A</button>
+                <button role="button" id="ubiB" class="punto">B</button>
+                <button role="button" id="ubiC" class="punto">C</button>
             </div>
+            
             <div id="manual" class="col-5 d-flex flex-column justify-content-center align-items-center">
                 <div class="col d-flex justify-content-center mt-5">
                     <img height="100" id="btn_up" src="imgs/arrow.png"></img>
@@ -93,7 +102,7 @@
     <script type="text/javascript" src="http://static.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script>
     <script type="text/javascript" src="http://static.robotwebtools.org/roslibjs/current/roslib.min.js"></script>
     <script type="text/javascript" src="http://static.robotwebtools.org/ros3djs/current/ros3d.min.js"></script>
-    <script src="js/ros2dmap.js"></script>
+    <!--<script src="js/ros2dmap.js"></script>-->
     <script src="https://static.robotwebtools.org/roslibjs/current/roslib.min.js"></script>
     <script src="https://unpkg.com/eventemitter2@6.4.5/lib/eventemitter2.js"></script>
     

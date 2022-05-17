@@ -15,6 +15,22 @@ document.addEventListener('DOMContentLoaded', event => {
     document.getElementById("btn_nav_auto").addEventListener("click", navPoseHandler)
     document.getElementById("btn_con").addEventListener("click", connect)
     document.getElementById("btn_dis").addEventListener("click", disconnect)
+    document.getElementById("ubiA").addEventListener("click", ubicacionA)
+    document.getElementById("ubiB").addEventListener("click", ubicacionB)
+    document.getElementById("ubiC").addEventListener("click", ubicacionC)
+
+    function ubicacionA(){
+        gotopose(0.0, 0.0, 0.0, 1.0)
+    }
+
+    function ubicacionB(){
+        gotopose(1.33, 0.0, 0.90, 1.0)
+    }
+
+    function ubicacionC(){
+        gotopose(1.50, 1.27, 0.12, 1.0)
+    }
+
 
     let btnUp = document.getElementById('btn_up');
     btnUp.addEventListener('mousedown', upStartHandler, false);
@@ -41,7 +57,6 @@ document.addEventListener('DOMContentLoaded', event => {
     btnRight.addEventListener('touchend', endHandler, false);
 
 
-    
     var x = 0;
     var z = 0;
     var scale = 0;
@@ -75,7 +90,11 @@ document.addEventListener('DOMContentLoaded', event => {
             btn_conectar.style.display = 'none'
             btn_desconectar.style.display = 'inline'
 
-            cargarMapa()
+            //cargarMapa()
+            iniPose()
+            displayBattery()
+            displayPoseMarker()
+            document.getElementById("bateriaCompleto").style.display = "block";
         })
         data.ros.on("error", (error) => {
             console.log("Se ha producido algun error mientras se intentaba realizar la conexion")
@@ -159,6 +178,7 @@ document.addEventListener('DOMContentLoaded', event => {
 
     function displayPoseMarker() {
         // Create a marker representing the robot.
+        /*
         var robotMarker = new ROS2D.NavigationArrow({
             size : 6,
             strokeSize : 0.5,
@@ -171,7 +191,7 @@ document.addEventListener('DOMContentLoaded', event => {
 // Add the marker to the 2D scene.
         data.gridClient.rootObject.addChild(robotMarker);
         var initScaleSet = false;
-
+*/
 // Subscribe to the robot's pose updates.
         var poseListener = new ROSLIB.Topic({
             ros : data.ros,
@@ -184,7 +204,8 @@ document.addEventListener('DOMContentLoaded', event => {
 
 // Orientate the marker based on the robot's pose.
             console.log('Got Pose data:', msg.pose.pose.position.x, msg.pose.pose.position.y );  
-            robotMarker.x = msg.pose.pose.position.x;
+            console.log('Got Pose orientation:', msg.pose.pose.orientation );  
+            /*robotMarker.x = msg.pose.pose.position.x;
             robotMarker.y = -msg.pose.pose.position.y;
             console.log('Pose updated: ', robotMarker.x);
             if (!initScaleSet) {
@@ -193,7 +214,7 @@ document.addEventListener('DOMContentLoaded', event => {
             initScaleSet = true;
             }
             robotMarker.rotation = data.viewer.scene.rosQuaternionToGlobalTheta(msg.pose.pose.orientation);
-            robotMarker.visible = true;
+            robotMarker.visible = true;*/
         });
     } // end display pose marker
 
@@ -305,7 +326,7 @@ document.addEventListener('DOMContentLoaded', event => {
     }
 
     //Funció para mandar la posicióna la que navegar
-    function gotopose(pos_x = 0.0, pos_y = 0.0, orien_z = 0.0, orien_w = 0.0){
+    function gotopose(pos_x = 0.0, pos_y = 0.0, orien_z = 0.0, orien_w = 1.0){
         console.log("Clic en gotopose")
         data.service_busy = true
         data.service_response = ''	
@@ -320,8 +341,8 @@ document.addEventListener('DOMContentLoaded', event => {
         let request = new ROSLIB.ServiceRequest({
             pos_x: parseFloat(pos_x),
             pos_y: parseFloat(pos_y),
-            orien_z: parseFloat(orien_z),
-            orien_w: parseFloat(orien_w),
+            orien_z: parseFloat(0.0),
+            orien_w: parseFloat(1.0),
         })
     
         service.callService(request, (result) => {
@@ -350,8 +371,8 @@ document.addEventListener('DOMContentLoaded', event => {
         let request = new ROSLIB.ServiceRequest({
             pos_x: 0.0,
             pos_y: 0.0,
-            orien_z: 1.0,
-            orien_w: 0.0//0.7071,
+            orien_z: 0.0,
+            orien_w: 1.0 //0.7071,
         })
     
         service.callService(request, (result) => {
@@ -362,6 +383,28 @@ document.addEventListener('DOMContentLoaded', event => {
             console.error(error)
         })	
     }
+
+
+    function displayBattery() {
+        
+
+        // Subscribe to the robot's pose updates.
+        var poseListener = new ROSLIB.Topic({
+            ros : data.ros,
+            name : '/battery_state',
+            messageType : 'sensor_msgs/BatteryState',
+            throttle_rate : 100
+        });
+
+        poseListener.subscribe(function(msg) {
+
+// Orientate the marker based on the robot's pose.
+            //console.log('Got battery data:', msg.percentage );
+            valor =  msg.percentage + 'px';
+            document.getElementById("nivel").style.width = valor;
+            
+        });
+    } // end display pose marker
 
 
 
