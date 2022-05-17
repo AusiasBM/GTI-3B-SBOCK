@@ -25,15 +25,15 @@ document.addEventListener('DOMContentLoaded', event => {
     }
 
     function ubicacionB(){
-        gotopose(1.0, 1.0, 0.0, 1.0)
+        gotopose(1.33, 0.0, 0.90, 1.0)
     }
 
     function ubicacionC(){
-        gotopose(0.0, 0.0, 0.0, 1.0)
+        gotopose(1.50, 1.27, 0.12, 1.0)
     }
 
     function ubicacionD(){
-        gotopose(0.0, 0.0, 0.0, 1.0)
+        gotopose(1.50, 1.27, 0.96, 1.0)
     }
 
     let btnUp = document.getElementById('btn_up');
@@ -96,6 +96,7 @@ document.addEventListener('DOMContentLoaded', event => {
 
             //cargarMapa()
             iniPose()
+            displayBattery()
         })
         data.ros.on("error", (error) => {
             console.log("Se ha producido algun error mientras se intentaba realizar la conexion")
@@ -382,6 +383,26 @@ document.addEventListener('DOMContentLoaded', event => {
             console.error(error)
         })	
     }
+
+
+    function displayBattery() {
+        
+
+        // Subscribe to the robot's pose updates.
+        var poseListener = new ROSLIB.Topic({
+            ros : data.ros,
+            name : '/battery_state',
+            messageType : 'sensor_msgs/BatteryState',
+            throttle_rate : 100
+        });
+
+        poseListener.subscribe(function(msg) {
+
+// Orientate the marker based on the robot's pose.
+            console.log('Got battery data:', msg.percentage );  
+            
+        });
+    } // end display pose marker
 
 
 
