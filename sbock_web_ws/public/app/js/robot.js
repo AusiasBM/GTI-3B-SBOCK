@@ -4,15 +4,15 @@ document.addEventListener('DOMContentLoaded', event => {
     var btn_desconectar = document.getElementById("btn_dis")
     var mapDiv = document.getElementById("map")
     
-    let posXField = document.getElementById("pos_x")
-    let posYField = document.getElementById("pos_y")
-    let orienZField = document.getElementById("orien_z")
-    let orienWField = document.getElementById("orien_w")
+    // let posXField = document.getElementById("pos_x")
+    // let posYField = document.getElementById("pos_y")
+    // let orienZField = document.getElementById("orien_z")
+    // let orienWField = document.getElementById("orien_w")
 
 
     btn_desconectar.style.display = 'none'  
 
-    document.getElementById("btn_nav_auto").addEventListener("click", navPoseHandler)
+    //document.getElementById("btn_nav_auto").addEventListener("click", navPoseHandler)
     document.getElementById("btn_con").addEventListener("click", connect)
     document.getElementById("btn_dis").addEventListener("click", disconnect)
     document.getElementById("ubiA").addEventListener("click", ubicacionA)
@@ -95,6 +95,8 @@ document.addEventListener('DOMContentLoaded', event => {
             displayBattery()
             displayPoseMarker()
             document.getElementById("bateriaCompleto").style.display = "block";
+            document.getElementById("modalFlechas").style.display = "block";
+            document.getElementById("dashboard").style.display = "block";
         })
         data.ros.on("error", (error) => {
             console.log("Se ha producido algun error mientras se intentaba realizar la conexion")
@@ -116,6 +118,9 @@ document.addEventListener('DOMContentLoaded', event => {
         data.gridClient = null
         mapDiv.innerHTML=""
         console.log('Clic en botón de desconexión')
+        document.getElementById("bateriaCompleto").style.display = "none";
+        document.getElementById("modalFlechas").style.display = "none";
+        document.getElementById("dashboard").style.display = "none";
     }
 
     function cargarMapa(){
@@ -398,7 +403,7 @@ document.addEventListener('DOMContentLoaded', event => {
 
         poseListener.subscribe(function(msg) {
 
-// Orientate the marker based on the robot's pose.
+            // Orientate the marker based on the robot's pose.
             //console.log('Got battery data:', msg.percentage );
             valor =  msg.percentage + 'px';
             document.getElementById("nivel").style.width = valor;
