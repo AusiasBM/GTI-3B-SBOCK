@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', event => {
     document.getElementById("ubiA").addEventListener("click", ubicacionA)
     document.getElementById("ubiB").addEventListener("click", ubicacionB)
     document.getElementById("ubiC").addEventListener("click", ubicacionC)
-    document.getElementById("ubiD").addEventListener("click", ubicacionD)
 
     function ubicacionA(){
         gotopose(0.0, 0.0, 0.0, 1.0)
@@ -32,9 +31,6 @@ document.addEventListener('DOMContentLoaded', event => {
         gotopose(1.50, 1.27, 0.12, 1.0)
     }
 
-    function ubicacionD(){
-        gotopose(1.50, 1.27, 0.96, 1.0)
-    }
 
     let btnUp = document.getElementById('btn_up');
     btnUp.addEventListener('mousedown', upStartHandler, false);
@@ -399,7 +395,8 @@ document.addEventListener('DOMContentLoaded', event => {
         poseListener.subscribe(function(msg) {
 
 // Orientate the marker based on the robot's pose.
-            console.log('Got battery data:', msg.percentage );  
+            //console.log('Got battery data:', msg.percentage ); 
+            document.getElementById('nivel').style.width = msg.percentage;
             
         });
     } // end display pose marker

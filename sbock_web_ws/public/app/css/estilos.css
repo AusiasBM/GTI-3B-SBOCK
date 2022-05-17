@@ -92,25 +92,54 @@ h5{
 
 #ubiA{
     position: relative;
-    left: 53.5vw;
-    top: 48vh;
+    left: 57%;
+    top: 85%;
 }
 
 #ubiB{
     position: relative;
-    left: 52.5vw;
-    top: 10vh;
+    left: 57%;
+    top: 16%;
 }
 
 #ubiC{
     position: relative;
-    left: 40vw;
-    top: 5vh;
+    left: 42%;
+    top: 10%;
 }
 
-#ubiD{
-    position: relative;
-    left: 35vw;
-    top: 3vh;
+#bateria{
+    height: 22px;
+    width: 102px;
+    border: 1px solid black ;
+    padding: 0;
 }
 
+#bateria div{
+    height: 20px;
+    width: 80px;
+    background-color: green;
+    margin: 0;
+}
+
+
+
+@media (max-width: 770px) {
+    #ubiA{
+        position: relative;
+        left: 67%;
+        top: 85%;
+    }
+    
+    #ubiB{
+        position: relative;
+        left: 67%;
+        top: 16%;
+    }
+    
+    #ubiC{
+        position: relative;
+        left: 35%;
+        top: 10%;
+    }
+  }
