@@ -324,4 +324,7 @@ waypoint_follower:
     wait_at_waypoint:
       plugin: "nav2_waypoint_follower::WaitAtWaypoint"
       enabled: True
-      waypoint_pause_duration: 200
+      camera_image_topic_name: '/camera/image_raw'
+      save_images_dir: 'src/img/img.jpg'
+      image_format: 'png'
+      waypoint_pause_duration: 2

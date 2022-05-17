@@ -19,8 +19,8 @@ class Publisher(Node):
         msg.header.stamp = self.get_clock().now().to_msg()
         msg.pose.pose.position.x = 0.0
         msg.pose.pose.position.y = 0.0
-        msg.pose.pose.orientation.z = 1.0
-        msg.pose.pose.orientation.w = 0.0
+        msg.pose.pose.orientation.z = 0.0
+        msg.pose.pose.orientation.w = 1.0
         
         self.get_logger().info('Publishing  Initial Position ')
         self.publisher_.publish(msg)
