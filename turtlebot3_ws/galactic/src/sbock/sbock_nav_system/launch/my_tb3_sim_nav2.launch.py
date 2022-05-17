@@ -24,7 +24,6 @@ from launch.conditions import IfCondition
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration, PythonExpression
 from launch_ros.actions import Node
-from launch_ros.substitutions import FindPackageShare
 
 
 def generate_launch_description():
@@ -53,7 +52,6 @@ def generate_launch_description():
     use_rviz = LaunchConfiguration('use_rviz')
     headless = LaunchConfiguration('headless')
     world = LaunchConfiguration('world')
-    nav2_bt_path = FindPackageShare(package='nav2_bt_navigator').find('nav2_bt_navigator')
 
 
     # Map fully qualified names to relative ones so the node's namespace can be prepended.
@@ -93,12 +91,12 @@ def generate_launch_description():
     
     declare_params_file_cmd = DeclareLaunchArgument(
         'params_file',
-        default_value=os.path.join(project_dir, 'config', 'new_nav2_params.yaml'),
+        default_value=os.path.join(project_dir, 'config', 'project_params.yaml'),
         description='Full path to the ROS2 parameters file to use for all launched nodes')
 
     declare_bt_xml_cmd = DeclareLaunchArgument(
         'default_bt_xml_filename',
-        default_value=os.path.join(nav2_bt_path, 'behavior_trees', 'navigate_to_pose_w_replanning_and_recovery.xml'),
+        default_value=os.path.join(project_dir, 'config', 'navigate_w_replanning_and_recovery.xml'),
         description='Full path to the behavior tree xml file to use')
 
     declare_autostart_cmd = DeclareLaunchArgument(
@@ -132,10 +130,19 @@ def generate_launch_description():
 
     declare_world_cmd = DeclareLaunchArgument(
         'world',
-        default_value= os.path.join(get_package_share_directory('sbock_my_world'),'world/burger.model'),
+        default_value= os.path.join(get_package_share_directory('turtlebot3_gazebo'),'worlds/turtlebot3_worlds/burger.model'),
         description='Full path to world model file to load')
 
-   
+    # Specify the actions
+    start_gazebo_server_cmd = ExecuteProcess(
+        condition=IfCondition(use_simulator),
+        cmd=['gzserver', '-s', 'libgazebo_ros_init.so', world],
+        cwd=[launch_dir], output='screen')
+
+    start_gazebo_client_cmd = ExecuteProcess(
+        condition=IfCondition(PythonExpression([use_simulator, ' and not ', headless])),
+        cmd=['gzclient'],
+        cwd=[launch_dir], output='screen')
 
     urdf = os.path.join(burger_dir, 'urdf', 'turtlebot3_burger.urdf')
 
@@ -190,8 +197,8 @@ def generate_launch_description():
     ld.add_action(declare_world_cmd)
 
     # Add any conditioned actions
-    #ld.add_action(start_gazebo_server_cmd)
-    #ld.add_action(start_gazebo_client_cmd)
+    ld.add_action(start_gazebo_server_cmd)
+    ld.add_action(start_gazebo_client_cmd)
 
     # Add the actions to launch all of the navigation nodes
     ld.add_action(start_robot_state_publisher_cmd)
