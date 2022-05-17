@@ -75,7 +75,8 @@ document.addEventListener('DOMContentLoaded', event => {
             btn_conectar.style.display = 'none'
             btn_desconectar.style.display = 'inline'
 
-            cargarMapa()
+            //cargarMapa()
+            iniPose()
         })
         data.ros.on("error", (error) => {
             console.log("Se ha producido algun error mientras se intentaba realizar la conexion")
@@ -305,7 +306,7 @@ document.addEventListener('DOMContentLoaded', event => {
     }
 
     //Funció para mandar la posicióna la que navegar
-    function gotopose(pos_x = 0.0, pos_y = 0.0, orien_z = 0.0, orien_w = 0.0){
+    function gotopose(pos_x = 0.0, pos_y = 0.0, orien_z = 0.0, orien_w = 1.0){
         console.log("Clic en gotopose")
         data.service_busy = true
         data.service_response = ''	
@@ -320,8 +321,8 @@ document.addEventListener('DOMContentLoaded', event => {
         let request = new ROSLIB.ServiceRequest({
             pos_x: parseFloat(pos_x),
             pos_y: parseFloat(pos_y),
-            orien_z: parseFloat(orien_z),
-            orien_w: parseFloat(orien_w),
+            orien_z: parseFloat(0.0),
+            orien_w: parseFloat(1.0),
         })
     
         service.callService(request, (result) => {

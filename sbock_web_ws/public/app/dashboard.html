@@ -42,10 +42,14 @@
         </section>
 
 
-        <section class="row d-flex justify-content-center mt-5">
-            <div class="col" id="map">
-
+        <section class="row d-flex justify-content-center mt-5 ">
+            <div id="map">
+                <button onclick="gotopose(pos_x = 0.0, pos_y = 0.0)" class="punto ubiA">A</button>
+                <button onclick="gotopose(pos_x = 1.0, pos_y = 1.0)" class="punto ubiB">B</button>
+                <button onclick="gotopose(pos_x = 1.0, pos_y = 1.0)" class="punto ubiC">C</button>
+                <button onclick="gotopose(pos_x = 1.0, pos_y = 1.0)" class="punto ubiD">D</button>
             </div>
+            <!--
             <div id="manual" class="col-5 d-flex flex-column justify-content-center align-items-center">
                 <div class="col d-flex justify-content-center mt-5">
                     <img height="100" id="btn_up" src="imgs/arrow.png"></img>
@@ -71,7 +75,7 @@
                     <button class="btn-xl mt-2 btn btn-primary" id="btn_nav_auto">Navegar al punto</button>
                 </div>
             </div>
-            
+            -->
         </section>
 
 

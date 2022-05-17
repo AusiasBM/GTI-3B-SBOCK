@@ -8,6 +8,7 @@
 html{
     /* Sirve para que haga el scroll suave*/
     scroll-behavior: smooth;
+    height: vh;
 }
 
 .container-fluid{
@@ -50,13 +51,66 @@ h5{
 }
 
 #manual {
+    position: relative;
+    left: 50vw;
+    top: 30vh;
     background-color: aliceblue;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    height: 600px;
+    height: 200px;
+    width: 200px;
 }
 
 #btn_up:active, #btn_left:active, #btn_right:active, #btn_down:active{
     background-color: deepskyblue;
     border-radius: 90px;
 }
+
+#map{
+    background-image: url(../imgs/plano.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 60vh;
+    width: 100vw;
+}
+
+.punto{
+    background-color: rgb(95, 181, 249);
+    color: white;
+    width: 30px;
+    height: 30px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     padding: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+
+.ubiA{
+    position: relative;
+    left: 54vw;
+    top: 48vh;
+}
+
+.ubiB{
+    position: relative;
+    left: 54vw;
+    top: 10vh;
+}
+
+.ubiC{
+    position: relative;
+    left: 43vw;
+    top: 6.5vh;
+}
+
+.ubiD{
+    position: relative;
+    left: 33vw;
+    top: 3vh;
+}
+
