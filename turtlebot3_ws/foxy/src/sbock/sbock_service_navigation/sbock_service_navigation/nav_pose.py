@@ -53,6 +53,11 @@ class Service_Nav_To_Pose(Node):
         pose.pose.orientation.z = request.orien_z
         pose.pose.orientation.w = request.orien_w
 
+        self.get_logger().info('X: ' + str(request.pos_x))
+        self.get_logger().info('Y: ' + str(request.pos_y))
+        self.get_logger().info('Z: ' + str(request.orien_z))
+        self.get_logger().info('W: ' + str(request.orien_w))
+
         #Llamamos al metodo que iniciará el proceso para que el robot vaya a la posicion de desino
         response = self.__send_goal(pose, response)
         
