@@ -8,6 +8,7 @@
 html{
     /* Sirve para que haga el scroll suave*/
     scroll-behavior: smooth;
+    height: vh;
 }
 
 .container-fluid{
@@ -50,13 +51,93 @@ h5{
 }
 
 #manual {
-    background-color: aliceblue;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    height: 600px;
+    height: 300px;
+    width: 300px;
 }
 
 #btn_up:active, #btn_left:active, #btn_right:active, #btn_down:active{
     background-color: deepskyblue;
     border-radius: 90px;
 }
+
+#map{
+    background-image: url(../imgs/plano.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 60vh;
+    width: 100vw;
+}
+
+#dashboard{
+    display: none;
+}
+
+.punto{
+    background-color: rgb(95, 181, 249);
+    color: white;
+    width: 30px;
+    height: 30px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     padding: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+
+#ubiA{
+    position: relative;
+    left: 57%;
+    top: 85%;
+}
+
+#ubiB{
+    position: relative;
+    left: 57%;
+    top: 16%;
+}
+
+#ubiC{
+    position: relative;
+    left: 42%;
+    top: 10%;
+}
+
+#bateria{
+    height: 22px;
+    width: 102px;
+    border: 1px solid black ;
+    padding: 0;
+}
+
+#nivel{
+    height: 20px;
+    width: 0px;
+    background-color: green;
+    margin: 0;
+}
+
+
+
+@media (max-width: 770px) {
+    #ubiA{
+        position: relative;
+        left: 67%;
+        top: 85%;
+    }
+    
+    #ubiB{
+        position: relative;
+        left: 67%;
+        top: 16%;
+    }
+    
+    #ubiC{
+        position: relative;
+        left: 35%;
+        top: 10%;
+    }
+  }
