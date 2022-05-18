@@ -22,6 +22,7 @@
     <exec_depend>sbock_service_navigation</exec_depend>
     <exec_depend>sbock_service_remote_control</exec_depend>
     <exec_depend>sbock_show_msg</exec_depend>
+    <exec_depend>sbock_capture_image</exec_depend>
 
     <export>
     <build_type>ament_cmake</build_type>
