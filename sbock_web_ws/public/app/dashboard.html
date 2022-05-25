@@ -8,6 +8,14 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- JQUERY CDN -->
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.js"
+			  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+			  crossorigin="anonymous"></script>
+
+
     <title>sBOCK - Dashboard</title>
 
 
@@ -19,7 +27,6 @@
             <nav class="col navbar fixed-top navbar-expand-md navbar-light bg-light">
                 <a class="navbar-brand p-0" href="/index.html">
                     <img src="imgs/logo.png" width="200" alt="logotipo sbock">
-                    <img src="imgs/img.jpg" alt="pepe">
                 </a>
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,6 +53,10 @@
                 </div>
             </div>
 
+            <div>
+                <img id="seccionImagen" src="imgs/img.jpg" alt="OLA">
+            </div>
+            
             <button id="modalFlechas" style="display: none;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 Mover con flechas
             </button>
@@ -126,7 +137,17 @@
 
 
     
-    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            setInterval(
+                function(){
+                    var time = new Date().getTime();
+                    document.getElementById("seccionImagen").src="imgs/img.jpg?t="+time;
+                },2000
+            );
+        });
+    </script>
+
     <script>
        
         if(sessionStorage.getItem('user') != undefined){
