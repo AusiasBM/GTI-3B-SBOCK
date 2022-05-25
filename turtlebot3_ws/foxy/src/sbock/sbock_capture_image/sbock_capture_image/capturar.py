@@ -1,3 +1,4 @@
+import pwd
 import rclpy
 import cv2
 import numpy as np
@@ -23,7 +24,7 @@ class Ros2OpenCVImageConverter(Node):
         except CvBridgeError as e:
             print(e)
         
-        cv2.imwrite('/home/pere/GTI-3B-SBOCK/sbock_web_ws/public/app/imgs/img.jpg', cv_image)
+        cv2.imwrite('../../sbock_web_ws/public/app/imgs/img.jpg', cv_image)
         cv2.imshow("Imagen capturada", cv_image)
         cv2.waitKey(0) #aprieta una tecla 
         cv2.destroyAllWindows()
