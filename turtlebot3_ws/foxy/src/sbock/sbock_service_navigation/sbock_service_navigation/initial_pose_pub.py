@@ -43,10 +43,9 @@ class Service_ini_pos(Node):
             self.publisher_.publish(msg)
             self.__initial_pose_initialized = True
             
-        
-        
         response.success = True
         return response
+
 
 
 def main(args=None):
