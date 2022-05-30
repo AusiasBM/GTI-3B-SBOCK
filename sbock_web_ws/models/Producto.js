@@ -7,11 +7,11 @@ const ProductoSchema = new Schema ({
         require: true
     },
     stock: {
-        type: Int32Array,
+        type: Number,
         require: true
     },
     necesario: {
-        type: Int32Array
+        type: Number
     }
 
 });

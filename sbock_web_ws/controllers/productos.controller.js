@@ -3,25 +3,15 @@ const Producto = require("../models/Producto");
 exports.modificar= async (req, res) => {
   try {
     const { id, stock } = req.body; // asignamos los atributos del json a las variables nombre y correo
-    console.log(id);
-
-    if( id && stock){
-      var productoActualizado = await Producto.findByIdAndUpdate();
-      if(productoActualizado.stock==stock){
-          console.log("Hecho");
-          return 200;
-      }
-
-    }else{
-      return 500;
-    }
+    //console.log(id + " " + stock);
+    await Producto.findByIdAndUpdate(id, { stock });
+    //console.log("hecho");
+    res.status(200).send({msg: "actualizado"});
 
   } catch (error) {
     res.json(error);
   }
 };
-
-
 
 exports.obtener = async (req, res) => {
   try {
