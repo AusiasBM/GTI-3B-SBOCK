@@ -46,6 +46,9 @@ class Service_ini_pos(Node):
         response.success = True
         return response
 
+    def calc_time(self, x, y):
+        return x + y
+
 
 
 def main(args=None):
