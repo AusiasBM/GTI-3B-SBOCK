@@ -140,7 +140,7 @@ class Service_Nav_To_Pose(Node):
         self.__goal_handle = None
         self.__action_client = None
 
-
+    
 
 def main(args=None):
     # inicializa la comunicacion ROS2
