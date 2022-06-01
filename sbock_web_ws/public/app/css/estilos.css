@@ -51,13 +51,22 @@ h5{
 }
 
 #manual {
-    height: 300px;
-    width: 300px;
+    background-image: url(../imgs/robot-real.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 60vh;
+    width: 100vw;
+}
+
+#btn_up, #btn_left, #btn_right, #btn_down{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 93px;
 }
 
 #btn_up:active, #btn_left:active, #btn_right:active, #btn_down:active{
-    background-color: deepskyblue;
-    border-radius: 90px;
+    background-color: white;
+    border-radius: 93px;
 }
 
 #map{
@@ -120,7 +129,34 @@ h5{
     margin: 0;
 }
 
+#contenido{
+    margin-top: 5rem;
+}
 
+#pills-disabled{
+    padding-left: 20vw;
+    width: 90vw;
+}
+
+#actualizar{
+    width: 100%;
+}
+
+#seccionImagen{
+    width: 50vw;
+}
+
+.articulo{
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 16px;
+}
+
+.articulo h5{
+    color: darkslategrey;
+    font-weight: 400;
+}
 
 @media (max-width: 770px) {
     #ubiA{
@@ -140,4 +176,23 @@ h5{
         left: 35%;
         top: 10%;
     }
+
+    #menuCompleto{
+        width: 95vw;
+    }
+
+    #contenido{
+        margin-top: 5rem;
+        padding: 0;
+    }
+
+    #seccionImagen{
+        width: 100vw;
+    }
+
+    #pills-disabled{
+        padding-left: 0vw;
+        width: 80vw;
+    }
+
   }
