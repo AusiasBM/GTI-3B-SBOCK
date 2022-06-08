@@ -123,7 +123,7 @@ class Nav_To_Pose(Node):
             self.get_logger().info('Navigation failed with status code: {0}'.format(self.status))
         else:
             self.get_logger().info('Goal success!')
-        
+            
         self.__reset_action()
 
 
