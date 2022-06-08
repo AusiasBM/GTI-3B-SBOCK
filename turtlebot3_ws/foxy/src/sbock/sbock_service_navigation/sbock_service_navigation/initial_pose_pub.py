@@ -43,10 +43,12 @@ class Service_ini_pos(Node):
             self.publisher_.publish(msg)
             self.__initial_pose_initialized = True
             
-        
-        
         response.success = True
         return response
+
+    def calc_time(self, x, y):
+        return x + y
+
 
 
 def main(args=None):

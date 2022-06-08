@@ -1,23 +1,26 @@
+const IP_PUERTO = 'htttp://localhost:3500/api'
+
 document.addEventListener('DOMContentLoaded', event => {
+
 
     var btn_conectar = document.getElementById("btn_con")
     var btn_desconectar = document.getElementById("btn_dis")
     var mapDiv = document.getElementById("map")
-    
-    // let posXField = document.getElementById("pos_x")
-    // let posYField = document.getElementById("pos_y")
-    // let orienZField = document.getElementById("orien_z")
-    // let orienWField = document.getElementById("orien_w")
-
+   
 
     btn_desconectar.style.display = 'none'  
 
-    //document.getElementById("btn_nav_auto").addEventListener("click", navPoseHandler)
     document.getElementById("btn_con").addEventListener("click", connect)
     document.getElementById("btn_dis").addEventListener("click", disconnect)
     document.getElementById("ubiA").addEventListener("click", ubicacionA)
     document.getElementById("ubiB").addEventListener("click", ubicacionB)
     document.getElementById("ubiC").addEventListener("click", ubicacionC)
+    document.getElementById("button1").addEventListener("click", provaImage)
+    
+
+    function provaImage(){
+        detect_objects()
+    }
 
     function ubicacionA(){
         gotopose(0.0, 0.0, 0.0, 1.0)
@@ -182,22 +185,7 @@ document.addEventListener('DOMContentLoaded', event => {
     }
 
     function displayPoseMarker() {
-        // Create a marker representing the robot.
-        /*
-        var robotMarker = new ROS2D.NavigationArrow({
-            size : 6,
-            strokeSize : 0.5,
-            fillColor : createjs.Graphics.getRGB(255, 128, 0, 0.66),
-            pulse : false
-        });
-        robotMarker.visible = false;
-        console.log('creating robotMarkr ');
-
-// Add the marker to the 2D scene.
-        data.gridClient.rootObject.addChild(robotMarker);
-        var initScaleSet = false;
-*/
-// Subscribe to the robot's pose updates.
+        
         var poseListener = new ROSLIB.Topic({
             ros : data.ros,
             name : '/odom',
@@ -207,79 +195,12 @@ document.addEventListener('DOMContentLoaded', event => {
 
         poseListener.subscribe(function(msg) {
 
-// Orientate the marker based on the robot's pose.
+	// Orientate the marker based on the robot's pose.
             console.log('Got Pose data:', msg.pose.pose.position.x, msg.pose.pose.position.y );  
             console.log('Got Pose orientation:', msg.pose.pose.orientation );  
-            /*robotMarker.x = msg.pose.pose.position.x;
-            robotMarker.y = -msg.pose.pose.position.y;
-            console.log('Pose updated: ', robotMarker.x);
-            if (!initScaleSet) {
-            robotMarker.scaleX = 1.0 / data.viewer.scene.scaleX;
-            robotMarker.scaleY = 1.0 / data.viewer.scene.scaleY;
-            initScaleSet = true;
-            }
-            robotMarker.rotation = data.viewer.scene.rosQuaternionToGlobalTheta(msg.pose.pose.orientation);
-            robotMarker.visible = true;*/
+           
         });
-    } // end display pose marker
-
-
-    /*function cm(){
-        var viewer = new ROS3D.Viewer({
-                divID : 'map',
-                width : 800,
-                height : 600,
-                antialias : true
-        });
-
-        var gridClient = new ROS3D.OccupancyGridClient({
-            ros : data.ros,
-            rootObject : viewer.scene,
-            //continuous: true,
-        });
-    }
-
-    function map(viewer, gridClient){
-        const mapListener = new ROSLIB.Topic({
-            ros: data.ros,
-            name: '/map',
-            rootObject: viewer.scene,
-            viewer: viewer,
-            //serverName: '/move_base',
-            serverName: 'nav_msgs/OccupancyGrid',
-          });
-      
-          mapListener.subscribe((vel) => {
-            const multiplier = width / vel.info.width;
-            viewer.width = vel.info.width * multiplier;
-            viewer.height = vel.info.height * multiplier;
-      
-            viewer.scaleToDimensions(
-              gridClient.currentGrid.width,
-              gridClient.currentGrid.height
-            );
-      
-            //TODO setX and SetY
-            viewer.shift(
-              gridClient.currentGrid.pose.position.x,
-              gridClient.currentGrid.pose.position.y
-            );
-          });
-    }
-
-    function map2(){
-        console.log('Entra en map2')
-        const mapListener = new ROSLIB.Topic({
-            ros: data.ros,
-            name: '/map',
-            serverName: 'nav_msgs/OccupancyGrid',
-          });
-      
-          mapListener.subscribe(() => {
-            //cargarMapa()
-            cm()
-          });
-    }*/
+    } 
 
     function upStartHandler() {
         call_move_service("delante")
@@ -383,6 +304,66 @@ document.addEventListener('DOMContentLoaded', event => {
         service.callService(request, (result) => {
             data.service_busy = false
             data.service_response = JSON.stringify(result)
+        }, (error) => {
+            data.service_busy = false
+            console.error(error)
+        })	
+    }
+    
+    //Funcion para iniciar la posicion del robot
+    function detect_objects(){
+        console.log("Clic en detect_objects")
+        data.service_busy = true
+        data.service_response = ''	
+    
+      //definimos los datos del servicio
+        let service = new ROSLIB.Service({
+            ros: data.ros,
+            name: '/predict_yolo',
+            serviceType: 'sbock_custom_interface/srv/Predict'
+        })
+
+        let request = ''
+      
+    
+        service.callService(request,(result) => {
+            data.service_busy = false
+            data.service_response = JSON.stringify(result)
+            console.log(data.service_response)
+            if(result.success){
+            	num_productos = data.service_response.num_objetos
+            	nombre_producto = 'zumo_manzana'
+
+
+            	
+                fetch('localhost:3500/api/productos/modificar', {
+                    method : 'POST',
+                    mode: 'cors', // no-cors, *cors, same-origin
+                    cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+                    credentials: 'same-origin',
+                    headers: {
+                        'Content-Type': 'application/json'
+                        // 'Content-Type': 'application/x-www-form-urlencoded',
+                      },
+                      redirect: 'follow', // manual, *follow, error
+                      referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+                    body : JSON.stringify({
+                        nombre: nombre_producto,
+                        stock: num_productos,
+                    })
+                })
+                .then(function (respuesta) {
+                    if(respuesta.status != 200){
+                        console.log("ERROR EN POST")
+                    }
+                    return respuesta.json();
+                })
+                .then((res) => {
+                    console.log(res);
+          
+                })
+            	
+            }
         }, (error) => {
             data.service_busy = false
             console.error(error)

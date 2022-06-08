@@ -1,0 +1,5 @@
+
+---
+int32 num_objetos #respuesta
+string clase
+bool success 

@@ -20,6 +20,7 @@
     <exec_depend>sbock_position_publisher</exec_depend>
     <exec_depend>sbock_custom_interface</exec_depend>
     <exec_depend>sbock_service_navigation</exec_depend>
+    <exec_depend>sbock_service_predict_yolo</exec_depend>
     <exec_depend>sbock_service_remote_control</exec_depend>
     <exec_depend>sbock_show_msg</exec_depend>
     <exec_depend>sbock_capture_image</exec_depend>

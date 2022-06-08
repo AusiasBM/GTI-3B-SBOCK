@@ -19,7 +19,8 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [ 'capture_image=sbock_capture_image.capturar:main'
+        'console_scripts': [ 
+        	'capture_image=sbock_capture_image.capturar:main',
         ],
     },
 )
