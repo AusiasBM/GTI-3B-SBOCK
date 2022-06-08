@@ -45,16 +45,18 @@ class Predict_Service(Node):
     def callback_predict(self, request, response):
 
         #Comprovar si detecta algo amb el model entrenat
-        count_objects_trained = self.predict_yolo_class(FLAGS.weights, FLAGS.classes, FLAGS.num_classes)
+        count_objects_trained, clase = self.predict_yolo_class(FLAGS.weights, FLAGS.classes, FLAGS.num_classes)
 
         #Comprovar si detecta algo amb el model de YOLO
-        count_yolo_trained = self.predict_yolo_class(FLAGS.weights_yolo, FLAGS.classes_yolo, FLAGS.num_classes_yolo)
+        count_yolo_trained, clase = self.predict_yolo_class(FLAGS.weights_yolo, FLAGS.classes_yolo, FLAGS.num_classes_yolo)
 
         if count_objects_trained > 0:
             response.num_objetos = count_objects_trained
+            response.clase = clase
             response.success = True
         elif count_yolo_trained > 0:
             response.num_objetos = count_yolo_trained
+            response.clase = clase
             response.success = True
         else:
             response.num_objetos = 0
@@ -97,10 +99,12 @@ class Predict_Service(Node):
         self.get_logger().info('time: {}'.format(t2 - t1))
 
         count = 0
+        tipo_producto = ''
 
         self.get_logger().info('detections:')
         for i in range(nums[0]):
             count += 1
+            tipo_producto = class_names[int(classes[0][i])]
             self.get_logger().info('\t{}, {}, {}'.format(class_names[int(classes[0][i])],
                                             np.array(scores[0][i]),
                                             np.array(boxes[0][i])))
@@ -111,7 +115,7 @@ class Predict_Service(Node):
         if count > 0:
             cv2.imwrite(FLAGS.output, img)
         
-        return count
+        return count, tipo_producto
 
 
 
