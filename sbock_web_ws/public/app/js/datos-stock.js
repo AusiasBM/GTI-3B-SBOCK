@@ -12,7 +12,7 @@ function obtenerStock(){
         return respuesta.json();
     })
     .then((res) => {
-        //console.log(res[0]['necesarios']);
+        console.log(res[0]['necesarios']);
         document.getElementById("filaProductos").innerHTML = ``;
 
         res.forEach(element => {
