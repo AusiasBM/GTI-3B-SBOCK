@@ -4,6 +4,7 @@ import sys
 import rclpy
 from rclpy.node import Node
 from sbock_custom_interface.srv import Predict
+import cv2
 
 
 import time
@@ -18,18 +19,6 @@ from .dataset import transform_images, load_tfrecord_dataset
 from .utils import draw_outputs
 
 
-flags.DEFINE_string('classes', './data/new_names.names', 'path to classes file')
-flags.DEFINE_string('classes_yolo', './data/coco.names', 'path to classes file')
-flags.DEFINE_string('weights', './checkpoints/yolov3_train_44.tf','path to weights file')
-flags.DEFINE_string('weights_yolo', './checkpoints/yolov3.tf','path to weights file')
-flags.DEFINE_boolean('tiny', False, 'yolov3 or yolov3-tiny')
-flags.DEFINE_integer('size', 416, 'resize images to')
-flags.DEFINE_string('image', '../../sbock_web_ws/public/app/imgs/img.jpg', 'path to input image')
-flags.DEFINE_string('tfrecord', None, 'tfrecord instead of image')
-flags.DEFINE_string('output', './../sbock_web_ws/public/app/imgs/output.jpg', 'path to output image')
-flags.DEFINE_integer('num_classes', 1, 'number of classes in the model')
-flags.DEFINE_integer('num_classes_yolo', 80, 'number of classes in the model')
-
 
 class Predict_Service(Node):
 
@@ -37,6 +26,17 @@ class Predict_Service(Node):
     def __init__(self):
         super().__init__('predict_yolo_server')
         
+        self.classes_path = '/home/aibes/SBOCK/turtlebot3_ws/foxy/src/sbock/sbock_service_predict_yolo/sbock_service_predict_yolo/new_names.names' #path to classes file
+        self.classes_path2 = '/home/aibes/SBOCK/turtlebot3_ws/foxy/src/sbock/sbock_service_predict_yolo/sbock_service_predict_yolo/coco.names' #path to classes file
+        self.weights = '/home/aibes/SBOCK/turtlebot3_ws/foxy/src/sbock/sbock_service_predict_yolo/sbock_service_predict_yolo/yolov3_train_44.tf' #path to weights file
+        self.weights2 = '/home/aibes/SBOCK/turtlebot3_ws/foxy/src/sbock/sbock_service_predict_yolo/sbock_service_predict_yolo/yolov3.tf' #path to weights file
+        self.tiny = False #yolov3 or yolov3-tiny
+        self.size = 416 #resize images to
+        self.image = '/home/aibes/SBOCK//sbock_web_ws/public/app/imgs/img.jpg' #path to input image
+        self.tfrecord = None #tfrecord instead of image
+        self.output = '/home/aibes/SBOCK//sbock_web_ws/public/app/imgs/output.jpg' #path to output image
+        self.num_classes = 1 #number of classes in the model
+        self.num_classes2 = 80 #number of classes in the model
         
         self.srv = self.create_service(Predict, 'predict_yolo', self.callback_predict)
         
@@ -45,19 +45,16 @@ class Predict_Service(Node):
     def callback_predict(self, request, response):
 
         #Comprovar si detecta algo amb el model entrenat
-        count_objects_trained, clase = self.predict_yolo_class(FLAGS.weights, FLAGS.classes, FLAGS.num_classes)
+        count_objects_trained, clase = self.predict_yolo_class(self.weights, self.classes_path, self.num_classes)
 
         #Comprovar si detecta algo amb el model de YOLO
-        count_yolo_trained, clase = self.predict_yolo_class(FLAGS.weights_yolo, FLAGS.classes_yolo, FLAGS.num_classes_yolo)
+        #count_yolo_trained, clase = self.predict_yolo_class(self.weights2, self.classes_path2, self.num_classes2)
 
         if count_objects_trained > 0:
             response.num_objetos = count_objects_trained
             response.clase = clase
             response.success = True
-        elif count_yolo_trained > 0:
-            response.num_objetos = count_yolo_trained
-            response.clase = clase
-            response.success = True
+        
         else:
             response.num_objetos = 0
             response.success = False
@@ -70,7 +67,7 @@ class Predict_Service(Node):
         if len(physical_devices) > 0:
             tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
-        if FLAGS.tiny:
+        if self.tiny:
             yolo = YoloV3Tiny(classes=num_classes)
         else:
             yolo = YoloV3(classes=num_classes)
@@ -81,17 +78,17 @@ class Predict_Service(Node):
         class_names = [c.strip() for c in open(classes_model).readlines()]
         self.get_logger().info('classes loaded')
 
-        if FLAGS.tfrecord:
+        if self.tfrecord:
             dataset = load_tfrecord_dataset(
-                FLAGS.tfrecord, classes_model, FLAGS.size)
+                self.tfrecord, classes_model, self.size)
             dataset = dataset.shuffle(512)
             img_raw, _label = next(iter(dataset.take(1)))
         else:
             img_raw = tf.image.decode_image(
-                open(FLAGS.image, 'rb').read(), channels=3)
+                open(self.image, 'rb').read(), channels=3)
 
         img = tf.expand_dims(img_raw, 0)
-        img = transform_images(img, FLAGS.size)
+        img = transform_images(img, self.size)
 
         t1 = time.time()
         boxes, scores, classes, nums = yolo(img)
@@ -112,8 +109,10 @@ class Predict_Service(Node):
         img = cv2.cvtColor(img_raw.numpy(), cv2.COLOR_RGB2BGR)
         img = draw_outputs(img, (boxes, scores, classes, nums), class_names)
 
-        if count > 0:
-            cv2.imwrite(FLAGS.output, img)
+       
+        cv2.imwrite(self.output, img)
+        
+        
         
         return count, tipo_producto
 

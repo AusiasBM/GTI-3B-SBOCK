@@ -4,14 +4,6 @@ import tensorflow as tf
 
 # We do this because of a bug in kinetic when importing cv2
 import sys
-ros_version = "kinetic"
-if ros_version == "kinetic":
-    try:
-        sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
-    except Exception as ex:
-        print(ex)
-        print("Its already removed..../opt/ros/kinetic/lib/python2.7/dist-packages")
-import cv2
 
 import cv2
 

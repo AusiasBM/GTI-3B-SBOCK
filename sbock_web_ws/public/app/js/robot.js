@@ -1,4 +1,7 @@
+const IP_PUERTO = 'htttp://localhost:3500/api'
+
 document.addEventListener('DOMContentLoaded', event => {
+
 
     var btn_conectar = document.getElementById("btn_con")
     var btn_desconectar = document.getElementById("btn_dis")
@@ -309,7 +312,7 @@ document.addEventListener('DOMContentLoaded', event => {
     
     //Funcion para iniciar la posicion del robot
     function detect_objects(){
-        console.log("Clic en iniPose")
+        console.log("Clic en detect_objects")
         data.service_busy = true
         data.service_response = ''	
     
@@ -319,14 +322,31 @@ document.addEventListener('DOMContentLoaded', event => {
             name: '/predict_yolo',
             serviceType: 'sbock_custom_interface/srv/Predict'
         })
+
+        let request = ''
+      
     
-        service.callService(request, (result) => {
+        service.callService(request,(result) => {
+            data.service_busy = false
+            data.service_response = JSON.stringify(result)
+            console.log(data.service_response)
             if(result.success){
-            	num_productos = result.num_objetos
-            	nombre_producto = result.clase
+            	num_productos = data.service_response.num_objetos
+            	nombre_producto = 'zumo_manzana'
+
+
             	
-                fetch(IP_PUERTO + '/productos/modificar', {
-                    method : 'post',
+                fetch('localhost:3500/api/productos/modificar', {
+                    method : 'POST',
+                    mode: 'cors', // no-cors, *cors, same-origin
+                    cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+                    credentials: 'same-origin',
+                    headers: {
+                        'Content-Type': 'application/json'
+                        // 'Content-Type': 'application/x-www-form-urlencoded',
+                      },
+                      redirect: 'follow', // manual, *follow, error
+                      referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
                     body : JSON.stringify({
                         nombre: nombre_producto,
                         stock: num_productos,
