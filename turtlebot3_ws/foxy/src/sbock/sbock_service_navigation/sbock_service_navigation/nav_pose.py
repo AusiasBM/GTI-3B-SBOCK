@@ -1,6 +1,7 @@
 #nav_to_pose.py
 
 import sys
+from os import system
 from sbock_custom_interface.srv import NavToPose
 import rclpy
 from rclpy.action import ActionClient
@@ -121,6 +122,9 @@ class Service_Nav_To_Pose(Node):
             self.get_logger().info('Navigation failed with status code: {0}'.format(self.status))
             
         else:
+            system("ros2 run sbock_capture_image capture_image")
+            
+            #self.get_logger().info('HACEMOS LA FOTO!')
             self.get_logger().info('Goal success!')
             
         self.__reset_action()

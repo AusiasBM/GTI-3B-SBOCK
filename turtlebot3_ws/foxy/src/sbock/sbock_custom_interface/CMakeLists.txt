@@ -40,6 +40,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/MyMoveMsg.srv"
   "srv/IniPose.srv"
   "srv/NavToPose.srv"
+  "srv/Predict.srv"
 )
 
 ament_package()
